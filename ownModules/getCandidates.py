@@ -18,6 +18,8 @@ def getJuries(instrumento):
     return data[instrumento]
 
 def setData(instrumento, data):
+    if not os.path.exists(os.sep.join(['data', 'backup'])):
+        os.mkdir(os.sep.join(['data', 'backup']))
     filename = os.sep.join(['data', 'backup', f'{instrumento}-{currentTime()}.dlt'])
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)

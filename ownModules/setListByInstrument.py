@@ -3,6 +3,8 @@ import os
 
 def set_list_by_instrument(data):
     data = json.loads(data)
+    if not os.path.exists('data'):
+        os.mkdir('data')
     filename = os.sep.join(['data', 'list_by_instrument.dlt'])
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)

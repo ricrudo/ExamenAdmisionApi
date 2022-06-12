@@ -103,6 +103,7 @@ def monitor_post(instrumento):
         if not person: abort(401)
         session['MONITOR'] = request.form['password']
         data, active = py.getCandidates(instrumento)
+        pendingJuries = False
     if session.get('MONITOR') is None:
         return redirect(url_for('monitor_get', instrumento=url_Instrument[instrumento]))
     if not person:

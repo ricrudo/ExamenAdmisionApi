@@ -116,6 +116,25 @@ def removeJuryAwaiting(instrumento, aspirante, jury):
             del data[aspirante]['grades']
     setData(instrumento, data)
 
-        
+def getGrades(instrumentos):
+    finalData = {}
+    for instrumento in instrumentos:
+        data = getData(instrumento)
+        for aspirante in data:
+            if data[aspirante]['state'] == 'completed':
+                finalData[aspirante] = calculateGrade(data[aspirante]['grades'])
+            elif data[aspirante]['state'] == 'inactive':
+                finalData[aspirante] = {'state': 'inactive','libre y escalas': 0.0, 'preparada': 0.0, 'lectura': 0.0}
+            elif data[aspirante]['state'] == 'active':
+                finalData[aspirante] = {'state': 'active','libre y escalas': 'en espera', 'preparada': 'en espera', 'lectura': 'en espera'}
+    return finalData
+
+def calculateGrade(grades):
+    libre = sum([x['libre y escalas'] for x in grades.values()])/len(grades)
+    preparada = sum([x['preparada'] for x in grades.values()])/len(grades)
+    lectura = sum([x['lectura'] for x in grades.values()])/len(grades)
+    return {'state': 'completed','libre y escalas': libre, 'preparada': preparada, 'lectura': lectura}
+
+
 
 

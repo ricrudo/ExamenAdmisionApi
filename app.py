@@ -25,7 +25,15 @@ def check_instrument(instrumento):
         return 
     return dictInstruments[instrumento]
 
-#### API ###########
+######################################
+#### API APLICACION TEORIA ###########
+#### API APLICACION TEORIA ###########
+#### API APLICACION TEORIA ###########
+#### API APLICACION TEORIA ###########
+#### API APLICACION TEORIA ###########
+#### API APLICACION TEORIA ###########
+######################################
+
 @app.get("/")
 def hello_world():
     return "<p>Hello, Worild!</p>"
@@ -51,6 +59,15 @@ def set_suscribers():
     py.new_suscriptor(email['email'])
     return 'ok'
 
+#######################################
+#### API EXAMEN INSTRUMENTO ###########
+#### API EXAMEN INSTRUMENTO ###########
+#### API EXAMEN INSTRUMENTO ###########
+#### API EXAMEN INSTRUMENTO ###########
+#### API EXAMEN INSTRUMENTO ###########
+#### API EXAMEN INSTRUMENTO ###########
+#######################################
+
 @app.post("/admisionesUA/services/set_list_instrument")
 def serviceSetListByInstrument():
     py.set_list_by_instrument(request.json)
@@ -66,9 +83,10 @@ def serviceSetJury():
     response = py.setPerson(request.json, 'jury')
     return response
 
+@app.get("/admisionesUA/services/getGrades")
+def serviceGetGrades():
+    return py.getGrades(list(dictInstruments.values()))
 #### WEBPAGES ######
-
-
 
 ################################################################
 #MONITOR#

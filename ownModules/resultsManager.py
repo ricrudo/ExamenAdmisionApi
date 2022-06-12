@@ -1,5 +1,6 @@
 import json
 import os
+import ownModules as py
 
 def resultsManager(data):
     pointsAudioP = calculate_score(data['audioperceptiva'])
@@ -45,6 +46,31 @@ def save_general_users(nombre, cedula, pointsAudioP, pointsTeoria):
 
 def get_grade(score):
     return f'{(int(score[0])*5)/int(score[1]):.1f}'
+
+def getBulkResults(listInstrumentos):
+    cedulas = [f'{j}.dlt' for x in listInstrumentos for j in list(py.getCandidates(x)[0].keys())]
+    poolResult = {}
+    for person in cedulas:
+        filename = os.sep.join(['users', person])
+        if not os.path.exists(filename):
+            continue
+        with open(filename, 'r') as f:
+            data = json.load(f)
+        poolResult[data['cedula']] = {}
+        poolResult[data['cedula']]['audioperceptiva'] = calculateGradein5(data['points_audioperceptiva'])
+        poolResult[data['cedula']]['teoria'] = calculateGradein5(data['points_teoria'])
+    return json.dumps(poolResult)
+
+
+def calculateGradein5(value):
+    points, total = value.split('/')
+    return int(points) * 5 / int(total)
+
+
+
+
+
+
 
 
 

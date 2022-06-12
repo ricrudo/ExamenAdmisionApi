@@ -15,7 +15,8 @@ dictInstruments = { 'bajo': 'BAJO ELECTRICO',
                     'saxofon': 'SAXOFON',
                     'violin': 'VIOLIN',
                     'cello': 'VIOLONCHELO',
-                    'trompeta': 'TROMPETA'
+                    'trompeta': 'TROMPETA',
+                    'NA': 'NA'
                     }
 
 url_Instrument = {value:key for key, value in dictInstruments.items()}
@@ -40,6 +41,7 @@ def hello_world():
 
 @app.get("/examen_ua/cuestionario/<institution>")
 def get_quest(institution:str):
+    # TODO que reciba tambien el id del estudiante para saber si existe
     data = py.get_cuestionario(institution)
     return data
 
@@ -48,8 +50,13 @@ def set_quest():
     py.set_cuestionario(request.json)
     return 'ok'
 
-@app.post("/examen_ua")
+@app.get("/examen_ua/get_results")
 def get_results():
+    response = py.getBulkResults(list(dictInstruments.values()))
+    return response
+
+@app.post("/examen_ua")
+def post_results():
     py.resultsManager(request.json)
     return 'ok'
 

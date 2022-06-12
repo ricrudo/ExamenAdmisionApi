@@ -30,11 +30,9 @@ def setData(instrumento, data):
 
 def getCandidates(instrumento):
     data = getData(instrumento)
-    print(data)
     active = False
     for candidate in data:
         if data[candidate]['state'] == 'active':
-            print('activo')
             active = True
             break
     return data, active

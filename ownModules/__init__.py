@@ -1,6 +1,6 @@
-from ownModules.resultsManager import resultsManager
+from ownModules.resultsManager import resultsManager, getBulkResults
 from ownModules.cuestionario import set_cuestionario, get_cuestionario
-from ownModules.checkPassword import checkPassword
+from ownModules.checkPassword import checkPassword, checkIdStudent
 from ownModules.suscriptor import new_suscriptor
 from ownModules.setListByInstrument import set_list_by_instrument
 from ownModules.setPerson import setPerson

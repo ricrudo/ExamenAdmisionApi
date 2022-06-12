@@ -33,4 +33,14 @@ def createPersonLog(cedula):
         with open(filename, 'w') as f:
             f.write('{}')
 
+def checkIdStudent(password):
+    filename = os.sep.join(['data', 'list_by_instrument.dlt'])
+    with open(filename, 'r') as f:
+        data = json.load(f)
+    for instrumento in data.values():
+        if password in instrumento:
+            return True
+    return False
+
+
 

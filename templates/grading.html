@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+  <div class='title'>Examen Admisión UA</div>
+  <div class='titulo'>Instrumento: {{ instrumento }}</div> 
+  <div class='titulo'>Jurado: {{ person }}</div>
+  {% if data %}
+    <label>Candidato: {{ data['nombre'] }}</label>
+    <input name='candidate' type='hidden' id='candidate' value='{{ data["cedula"] }}'></input>
+    <label for='libre'>Obra libre</label> 
+    <input type='text'name='libre', id='libre' maxlength='3'> </input> 
+    <label for='escalas'>Escalas</label> 
+    <input type='text' name='escalas', id='escalas' maxlength='3'> </input> 
+    <label for='preparada'>Obra preparada</label> 
+    <input type='text' name='preparada', id='preparada' maxlength='3'> </input> 
+    <label for='lectura'>Lectura a primera vista</label> 
+    <input type='text' name='lectura', id='lectura' maxlength='3'> </input> 
+    <button onclick='checkData()'>Enviar</button>
+    <form method='post'>
+      <input name='remove' type='hidden' value='{{ data["cedula"] }}'></input>
+      <button type='submit'>Cancelar</button> 
+    </form>
+  {% else %}
+    {% if alerta %}
+      <div>No hay un candidato activo. Es posible que el monitor aún no haya enviado al sistema la orden o que alguno de los jurados falte por calificar al candidato anterior. Por favor intente nuevamente en unos segundos.</div>
+    {% endif %}
+    <form id='callCandidate' method='post'>
+      <input name='start' type='hidden'></input>
+      <button type='submit'>Empezar</button>
+    </form>
+  {% endif %}
+
+  <script>
+    function checkData() {
+	  let candidate = document.querySelector('#candidate');
+	  let libre = convertData(document.querySelector("#libre"));
+	  let escalas = convertData(document.querySelector("#escalas"));
+	  let preparada = convertData(document.querySelector("#preparada"));
+	  let lectura = convertData(document.querySelector("#lectura"));
+	  if (libre && escalas && preparada && lectura) {
+		let text = 'Por favor confirme que las siguiente notas son las que desea reportar.\n\n' +
+		  'Obra Libre: ' + libre + '\n' + 
+		  'Escalas: ' + escalas + '\n' +
+		  'Obra Preparada: ' + preparada + '\n' +
+		  'Lectura primera vista: ' + lectura
+		if (confirm(text)) {
+		      sendData(libre, escalas, preparada, lectura, candidate);
+		    } 
+	      }
+	  else {
+		alert('Falta ingresar una o varias notas en un valor entre 0.0 y 5.0')
+	      }
+	};
+
+    function convertData(data) {
+	  data = data.value;
+	  data = data.replace(',', '.')
+	  const letters = '1234567890.'
+	  let response = ''
+	  for (const caract of data) {
+		if (letters.includes(caract)) {
+		      response += caract;
+		    };
+	      };
+	  data = parseFloat(response);
+	  if (0 <= data && data <= 5) {
+		return data;
+	      };
+	};
+
+    function sendData(libre, escalas, preparada, lectura, candidate) {
+	  let urlEncodedDataPairs = [], urlEncodedData = '';
+	  // Turn the data object into an array of URL-encoded key/value pairs.
+	  urlEncodedDataPairs.push( encodeURIComponent( 'candidate' ) + '=' + encodeURIComponent( candidate.value ) );
+	  urlEncodedDataPairs.push( encodeURIComponent( 'libre' ) + '=' + encodeURIComponent( libre ) );
+	  urlEncodedDataPairs.push( encodeURIComponent( 'escalas' ) + '=' + encodeURIComponent( escalas ) );
+	  urlEncodedDataPairs.push( encodeURIComponent( 'preparada' ) + '=' + encodeURIComponent( preparada ) );
+	  urlEncodedDataPairs.push( encodeURIComponent( 'lectura' ) + '=' + encodeURIComponent( lectura ) );
+	  
+	  // Combine the pairs into a single string and replace all %-encoded spaces to
+	  // the '+' character; matches the behavior of browser form submissions.
+	  urlEncodedData = urlEncodedDataPairs.join( '&' ).replace( /%20/g, '+' );
+
+	  const XHR = new XMLHttpRequest();
+	  const url = window.location.href;
+	  XHR.addEventListener( 'load', function(event) {
+	    window.location.href = url;
+	  } ); 
+	  // Set up our request
+	  XHR.open( 'POST', url );
+
+	  // Add the required HTTP header for form data POST requests
+	  XHR.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+
+	  // Finally, send our data.
+	  XHR.send( urlEncodedData );
+	};
+  </script> 
+
+</body>
+
+</html>
+
+

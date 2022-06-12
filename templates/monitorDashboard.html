@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+  <div class='title'>Monitor Dashboard - Examen Admisión UA</div>
+  <div class='instrumento'>{{ instrumento }}</div> 
+  <div class='instrumento'>{{ person }}</div> 
+  {% for aspirante in data %}
+    <form method='post'>
+      <label>{{ aspirante }}-{{ data[aspirante]['nombre'] }}</label>
+      {% if data[aspirante]['state'] == 'completed' %}
+	<label>- complete</label>
+      {% endif %}
+      {% if active %}
+	{% if data[aspirante]['state'] == 'active' %}
+	  <input type='hidden' name='deactivate' value='{{ aspirante }}'> </input>
+	  <button type='submit' class='boton'>Finalizar</button>
+	{% endif %}
+      {% else %}
+	<input type='hidden' name='activate' value='{{ aspirante }}'</input>
+	{% if data[aspirante]['state'] != 'completed' %}
+	  <button type='submit' class='boton'>Iniciar</button>
+	{% endif %}
+      {% endif %}
+    </form> 
+  {% endfor %}
+  {% if active %}
+    {% if pendingJuries %}
+      {% for category in pendingJuries %}
+	{% for jury in pendingJuries[category] %}
+	  {% if category == 'noStarted' %}
+	    <div>{{ jury }} no ha iniciado sesión</div> 
+	  {% elif category == 'noGraded' %}
+	    <div>{{ jury }} no ha enviado la calificación</div> 
+	  {% endif %}
+	{% endfor %}
+      {% endfor %}
+    {% endif %}
+  {% endif %}
+</body>
+</html>
+
+

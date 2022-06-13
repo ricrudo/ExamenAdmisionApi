@@ -198,4 +198,8 @@ def jury_post(instrumento):
         py.removeJuryAwaiting(instrumento, request.form['remove'], person['cedula'])
         return render_template('grading.html', instrumento=instrumento, data=False, person=person['nombre'], alerta=False)
         
-        
+@app.get("/clearsession")
+def clearsession():
+    session.clear()
+    print(session)
+    return str(dir(session))

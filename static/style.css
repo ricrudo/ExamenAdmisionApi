@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  justify-content: center;
+  color: #555;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.MainContainer {
+  width: 370px;
+  padding-top: 180px;
+}
+
+.boldText {
+  font-weight: 700;
+}
+
+.centerFlex {
+  display: flex;
+  justify-content: center;
+}
+.headBolck {
+  position: fixed;
+  background: #FFF;
+  width: 370px;
+}
+
+.monitor {
+  padding-bottom: 20px;
+}
+
+.startBtnCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  width: 370px;
+}
+
+.noCandidate {
+  padding: 30px 20px;
+  text-align: justify;
+}
+
+.candidate {
+  width: 370px;
+  padding: 180px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.title {
+  font-size: 28px;
+  margin: 20px 20px 0 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.endHeader {
+  margin-bottom: 20px;
+}
+
+.startList {
+  margin: 0 0 5px 20px;
+}
+
+.card {
+  border-top: #777777 solid 1px;
+  padding: 20px;
+}
+
+.gradeBock {
+  display: flex;
+  align-content: center;
+}
+
+.firstGradeBlock {
+  margin-top: 20px;
+}
+
+.textinput {
+  height: 42px;
+  width: 227px;
+  margin-top: 10px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.gradeLabel {
+  width: 100px;
+  align-self: center;
+}
+
+.textinputGrade {
+  width: 70px !important;
+  font-size: 20px !important;
+  margin: 10px !important;
+}
+
+
+
+.pendingAlert {
+  margin-top: 20px;
+  color: red;
+}
+
+.btnsCont{
+  display: flex;
+}
+
+.btnOk {
+  background: #1ebec0;
+  border-width: 0;
+  /* padding: 10px; */
+  color: white;
+  box-shadow: 1px 1px 3px 1px #dbdbdb;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  width: 128px;
+  height: 45px;
+  margin: 20px 20px 0 20px;
+}
+
+.btnBad {
+  background: #FFF;
+  border-width: 0px;
+  /* padding: 10px; */
+  color: #555;
+  box-shadow: 1px 1px 3px 1px #aaaaaa;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  width: 128px;
+  height: 45px;
+  margin: 20px 20px 0 20px;
+}

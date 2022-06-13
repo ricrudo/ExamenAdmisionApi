@@ -1,36 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Examen Admision UA - Promusica</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-  <div class='title'>Examen Admisión UA</div>
-  <div class='titulo'>Instrumento: {{ instrumento }}</div> 
-  <div class='titulo'>Jurado: {{ person }}</div>
+  <div class='headBolck'>
+    <div class='title boldText centerFlex'>Panel de Calificaci&#243;n</div>
+    <div class='monitor boldText centerFlex'>Jurado: {{ person }}</div> 
+    <div class='subtitle centerFlex'>Examen Admisión UA</div>
+    <div class='instrumento centerFlex endHeader'>{{ instrumento }}</div> 
+  </div> 
   {% if data %}
-    <label>Candidato: {{ data['nombre'] }}</label>
-    <input name='candidate' type='hidden' id='candidate' value='{{ data["cedula"] }}'></input>
-    <label for='libre'>Obra libre</label> 
-    <input type='text'name='libre', id='libre' maxlength='3'> </input> 
-    <label for='escalas'>Escalas</label> 
-    <input type='text' name='escalas', id='escalas' maxlength='3'> </input> 
-    <label for='preparada'>Obra preparada</label> 
-    <input type='text' name='preparada', id='preparada' maxlength='3'> </input> 
-    <label for='lectura'>Lectura a primera vista</label> 
-    <input type='text' name='lectura', id='lectura' maxlength='3'> </input> 
-    <button onclick='checkData()'>Enviar</button>
-    <form method='post'>
-      <input name='remove' type='hidden' value='{{ data["cedula"] }}'></input>
-      <button type='submit'>Cancelar</button> 
-    </form>
+    
+    <div class='candidate'>
+      <label>Candidato/a: {{ data['nombre'] }}</label>
+      <input name='candidate' type='hidden' id='candidate' value='{{ data["cedula"] }}'></input>
+      <div class='gradeBock firstGradeBlock'>
+	<div class='gradeLabel'>Obra libre</div> 
+	<input type='text' class='textinput textinputGrade' name='libre', id='libre' maxlength='3'> </input> 
+      </div> 
+      <div class='gradeBock'>
+	<div class='gradeLabel'>Escalas</div> 
+	<input type='text' class='textinput textinputGrade' name='escalas', id='escalas' maxlength='3'> </input> 
+      </div> 
+      <div class='gradeBock'>
+	<div class='gradeLabel'>Obra preparada</div> 
+	<input type='text' class='textinput textinputGrade' name='preparada', id='preparada' maxlength='3'> </input> 
+      </div> 
+      <div class='gradeBock'>
+	<div class='gradeLabel'>Lectura a primera vista</div> 
+	<input type='text' class='textinput textinputGrade' name='lectura', id='lectura' maxlength='3'> </input> 
+      </div>
+      <div class='btnsCont'>
+	<button class='btnOk' onclick='checkData()'>ENVIAR</button>
+	<form method='post'>
+	  <input name='remove' type='hidden' value='{{ data["cedula"] }}'></input>
+	  <button class='btnBad' type='submit'>CANCELAR</button> 
+	</form>
+      </div> 
+    </div> 
+
+
   {% else %}
+    <div class='startBtnCont'>
+      <form id='callCandidate' method='post'>
+	<input name='start' type='hidden'></input>
+	<button class='btnOk'type='submit'>INGRESAR</button>
+      </form>
     {% if alerta %}
-      <div>No hay un candidato activo. Es posible que el monitor aún no haya enviado al sistema la orden o que alguno de los jurados falte por calificar al candidato anterior. Por favor intente nuevamente en unos segundos.</div>
+      <div class='noCandidate'>No hay un candidato activo. Es posible que el monitor aún no haya enviado al sistema la orden o que alguno de los jurados falte por calificar al candidato anterior. Por favor intente nuevamente en unos segundos.</div>
     {% endif %}
-    <form id='callCandidate' method='post'>
-      <input name='start' type='hidden'></input>
-      <button type='submit'>Empezar</button>
-    </form>
+    </div> 
   {% endif %}
 
   <script>
@@ -51,7 +77,7 @@
 		    } 
 	      }
 	  else {
-		alert('Falta ingresar una o varias notas en un valor entre 0.0 y 5.0')
+		alert('Falta ingresar una o varias notas con un valor entre 0.0 y 5.0')
 	      }
 	};
 

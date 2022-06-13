@@ -1,44 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Examen Admision UA - Promusica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-  <div class='title'>Monitor Dashboard - Examen Admisión UA</div>
-  <div class='instrumento'>{{ instrumento }}</div> 
-  <div class='instrumento'>{{ person }}</div> 
-  {% for aspirante in data %}
-    <form method='post'>
-      <label>{{ aspirante }}-{{ data[aspirante]['nombre'] }}</label>
-      {% if data[aspirante]['state'] == 'completed' %}
-	<label>- complete</label>
-      {% endif %}
-      {% if active %}
-	{% if data[aspirante]['state'] == 'active' %}
-	  <input type='hidden' name='deactivate' value='{{ aspirante }}'> </input>
-	  <button type='submit' class='boton'>Finalizar</button>
-	{% endif %}
-      {% else %}
-	<input type='hidden' name='activate' value='{{ aspirante }}'</input>
-	{% if data[aspirante]['state'] != 'completed' %}
-	  <button type='submit' class='boton'>Iniciar</button>
-	{% endif %}
-      {% endif %}
-    </form> 
-  {% endfor %}
-  {% if active %}
-    {% if pendingJuries %}
-      {% for category in pendingJuries %}
-	{% for jury in pendingJuries[category] %}
-	  {% if category == 'noStarted' %}
-	    <div>{{ jury }} no ha iniciado sesión</div> 
-	  {% elif category == 'noGraded' %}
-	    <div>{{ jury }} no ha enviado la calificación</div> 
+    <div class='headBolck'>
+      <div class='title boldText centerFlex'>Monitor Dashboard</div>
+      <div class='monitor boldText centerFlex'>Monitor/a: {{ person }}</div> 
+      <div class='subtitle centerFlex'>Examen Admisión UA</div>
+      <div class='instrumento centerFlex endHeader'>{{ instrumento }}</div> 
+    <div class='startList'>Lista de aspirantes </div> 
+    </div> 
+  <div class='MainContainer'>
+    {% for aspirante in data %}
+      <div class='card'>
+	<form method='post'>
+	  <div style='margin-bottom: 5px'>
+	    <label class='boldText'>Identificaci&#243;n: </label><label>{{ aspirante }}</label>
+	  </div> 
+	  <div>
+	    <label class='boldText'>Nombre: </label><label>{{ data[aspirante]['nombre'] }}</label>
+	  </div> 
+	  {% if data[aspirante]['state'] == 'completed' %}
+	    <label>Completado</label>
 	  {% endif %}
-	{% endfor %}
-      {% endfor %}
-    {% endif %}
-  {% endif %}
+	  {% if active %}
+	    {% if data[aspirante]['state'] == 'active' %}
+	      <input type='hidden' name='deactivate' value='{{ aspirante }}'> </input>
+
+	      {% if active %}
+		{% if pendingJuries %}
+		  <div class='pendingAlert'>
+		  {% for category in pendingJuries %}
+		    {% for jury in pendingJuries[category] %}
+		      {% if category == 'noStarted' %}
+			<div>{{ jury }} no ha ingresado a calificar</div> 
+		      {% elif category == 'noGraded' %}
+			<div>{{ jury }} no ha enviado la calificaci&#243;n</div> 
+		      {% endif %}
+		    {% endfor %}
+		  {% endfor %}
+		  </div>
+		{% endif %}
+	      {% endif %}
+	      <div class='btnsCont'>
+		<button class='btnBad' type='submit'>CANCELAR</button>
+		<button class='btnOk' type='submit'>FINALIZAR</button>
+	      </div> 
+	    {% endif %}
+	  {% else %}
+	    <input type='hidden' name='activate' value='{{ aspirante }}'</input>
+	    {% if data[aspirante]['state'] != 'completed' %}
+	      <button class='btnBad' type='submit' class='boton'>INICIAR</button>
+	    {% endif %}
+	  {% endif %}
+	</form>
+      </div> 
+    {% endfor %}
+  </div> 
 </body>
 </html>
 

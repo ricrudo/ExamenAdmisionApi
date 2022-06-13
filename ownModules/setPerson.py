@@ -2,8 +2,7 @@ import json
 import os
 import ownModules
 
-
-def setPerson(user, profile):
+def getData(profile):
     if profile == 'monitor':
         filename = os.sep.join(['data', 'monitors.dlt'])
     elif profile == 'jury':
@@ -12,6 +11,10 @@ def setPerson(user, profile):
         data = {}
     else:
         data = loadFiles(filename)
+    return data, filename
+
+def setPerson(user, profile):
+    data, filename = getData(profile)
     error = []
     if len(user) != 3:
         error.append('más datos de los necesarios') 
@@ -42,3 +45,20 @@ def setData(data, profile, instrumento, cedula, nombre):
             data[instrumento] = {}
         data[instrumento][nombre] = cedula
     return data
+
+def getListPersons(profile):
+    data, filename = getData(profile)
+    data = json.dumps(data)
+    return data
+
+def removePerson(profile):
+    if 'monitor' in profile:
+        grupo = profile.replace('monitor', '')
+        profile = 'monitor'
+    data, filename = getData(profile)
+    del data[grupo]
+    updateFile(data, filename)
+
+
+
+

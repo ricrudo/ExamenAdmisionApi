@@ -1,6 +1,6 @@
 from string import ascii_uppercase
 
-letter = ascii_uppercase + '() '
+letter = ascii_uppercase + '_() 123456789'
 
 def replaceAccents(data):
     data = data.upper().strip()

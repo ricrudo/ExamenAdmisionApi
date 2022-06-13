@@ -14,12 +14,12 @@
     <div class='title boldText centerFlex'>Panel de Calificaci&#243;n</div>
     <div class='monitor boldText centerFlex'>Jurado: {{ person }}</div> 
     <div class='subtitle centerFlex'>Examen Admisión UA</div>
-    <div class='instrumento centerFlex endHeader'>{{ instrumento }}</div> 
+    <div class='instrumento centerFlex endHeader'>{{ instrumento.replace('_', ' ') }}</div> 
   </div> 
   {% if data %}
     
     <div class='candidate'>
-      <label>Candidato/a: {{ data['nombre'] }}</label>
+      <div style='text-align: center'>Candidato/a: {{ data['nombre'] }}</div>
       <input name='candidate' type='hidden' id='candidate' value='{{ data["cedula"] }}'></input>
       <div class='gradeBock firstGradeBlock'>
 	<div class='gradeLabel'>Obra libre</div> 
@@ -58,7 +58,16 @@
     {% endif %}
     </div> 
   {% endif %}
-
+  {% if data %}
+    <div class='logo logo2'>
+  {% elif alerta %}
+    <div class='logo logo3'>
+  {% else %}
+    <div class='logo logo1'>
+  {% endif %}
+    <div class='powered'>Powered by </div> 
+    <img src="https://riedmusicapp.com/logoRied.png" alt="Girl in a jacket" width="170">
+  </div> 
   <script>
     function checkData() {
 	  let candidate = document.querySelector('#candidate');

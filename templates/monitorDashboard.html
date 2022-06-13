@@ -14,7 +14,7 @@
       <div class='title boldText centerFlex'>Monitor Dashboard</div>
       <div class='monitor boldText centerFlex'>Monitor/a: {{ person }}</div> 
       <div class='subtitle centerFlex'>Examen Admisión UA</div>
-      <div class='instrumento centerFlex endHeader'>{{ instrumento }}</div> 
+      <div class='instrumento centerFlex endHeader'>{{ instrumento.replace('_', ' ') }}</div> 
     <div class='startList'>Lista de aspirantes </div> 
     </div> 
   <div class='MainContainer'>
@@ -28,7 +28,7 @@
 	    <label class='boldText'>Nombre: </label><label>{{ data[aspirante]['nombre'] }}</label>
 	  </div> 
 	  {% if data[aspirante]['state'] == 'completed' %}
-	    <label>Completado</label>
+	    <div class='completed'>Completado</div>
 	  {% endif %}
 	  {% if active %}
 	    {% if data[aspirante]['state'] == 'active' %}
@@ -63,6 +63,10 @@
 	</form>
       </div> 
     {% endfor %}
+  </div>
+  <div class='logo'>
+    <div class='powered'>Powered by </div> 
+    <img src="https://riedmusicapp.com/logoRied.png" alt="Girl in a jacket" width="170">
   </div> 
 </body>
 </html>

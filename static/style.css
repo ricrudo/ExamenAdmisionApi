@@ -1,15 +1,24 @@
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   color: #555;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 16px;
+  margin: 0px;
 }
 
 .MainContainer {
   width: 370px;
   padding-top: 180px;
+}
+
+.MainContainerLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 108vh;
 }
 
 .boldText {
@@ -24,6 +33,11 @@ body {
   position: fixed;
   background: #FFF;
   width: 370px;
+}
+
+.completed {
+  color: #007d20;
+  font-weight: 700;
 }
 
 .monitor {
@@ -138,4 +152,38 @@ body {
   width: 128px;
   height: 45px;
   margin: 20px 20px 0 20px;
+}
+
+.spacerLogin {
+  height: 180px;
+  max-height: 180px;
+  min-height: 180px;
+}
+
+.logo {
+  background: black;
+  width: 100%;
+  padding: 20px 0;
+  /* border-radius: 13px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo1 {
+  margin-top: 445px !important;
+}
+
+.logo2 {
+  margin-top: 65px !important;
+}
+
+.logo3 {
+  margin-top: 290px !important;
+}
+
+.powered {
+  color: white;
+  margin-bottom: 14px;
 }

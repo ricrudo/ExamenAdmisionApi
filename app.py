@@ -5,18 +5,13 @@ import ownModules as py
 app = Flask(__name__)
 app.secret_key = ')s:ie·\xa2]\nr2[\xf2'
 
-dictInstruments = { 'bajo': 'BAJO ELECTRICO',
-                    'canto': 'CANTO', 
-                    'eufonio': 'EUFONIO (BOMBARDINO)',
-                    'guitarra_acustica': 'GUITARRA ACUSTICA',
-                    'guitarra_electrica': 'GUITARRA ELECTRICA',
-                    'percusion': 'PERCUSION',
-                    'piano': 'PIANO',
-                    'saxofon': 'SAXOFON',
-                    'violin': 'VIOLIN',
-                    'cello': 'VIOLONCHELO',
-                    'trompeta': 'TROMPETA',
-                    'NA': 'NA'
+dictInstruments = { 'grupo1': 'GRUPO_1',
+                    'grupo2': 'GRUPO_2', 
+                    'grupo3': 'GRUPO_3', 
+                    'grupo4': 'GRUPO_4', 
+                    'grupo5': 'GRUPO_5', 
+                    'grupo6': 'GRUPO_6', 
+                    'grupo7': 'GRUPO_7', 
                     }
 
 url_Instrument = {value:key for key, value in dictInstruments.items()}
@@ -93,6 +88,22 @@ def serviceSetJury():
 @app.get("/admisionesUA/services/getGrades")
 def serviceGetGrades():
     return py.getGrades(list(dictInstruments.values()))
+
+@app.get("/admisionesUA/services/get_<profile>s")
+def servicesGetPersons(profile):
+    if not profile in ['monitor', 'jurie']:
+        abort(404)
+    data = py.getListPersons(profile.replace('ie', 'y')) 
+    return data
+
+@app.get("/admisionesUA/services/delete_<profile>")
+def servicesDeletePerson(profile):
+    if not any([x in profile for x in ['monitor', 'jury']]):
+        abort(404)
+    data = py.removePerson(profile) 
+    return 'ok'
+
+
 #### WEBPAGES ######
 
 ################################################################

@@ -12,9 +12,13 @@
 <body>
   <div class='headBolck'>
     <div class='title boldText centerFlex'>Ingreso</div>
-      <div class='monitor boldText centerFlex'></div> 
-      <div class='subtitle centerFlex'>Examen Admisi&#243;n UA</div>
-      <div class='instrumento centerFlex endHeader'>{{ instrumento }}</div> 
+    <div class='monitor boldText centerFlex'></div> 
+    <div class='subtitle centerFlex'>Examen Admisi&#243;n UA</div>
+    <div class='instrumento centerFlex endHeader'>{{ instrumento.replace('_', ' ') }}</div> 
+  </div> 
+  <div class='MainContainerLogin'>
+    <div>
+      <div  class='spacerLogin'> </div> 
       <form method='post'>
 	<div class='centerFlex'>
 	  <label for='password' class='titulo'>Ingrese su n&#250;mero de identificaci&#243;n</label>
@@ -26,8 +30,13 @@
 	<div class='centerFlex'>
 	  <button class='btnOk'  type='submit' class='boton'>INGRESAR</input>
 	</div> 
-      </form> 
-  </div> 
+      </form>
+    </div>
+    <div class='logo'>
+      <div class='powered'>Powered by </div> 
+      <img src="https://riedmusicapp.com/logoRied.png" alt="Girl in a jacket" width="170">
+    </div> 
+  </div>
 </body>
 </html>
 

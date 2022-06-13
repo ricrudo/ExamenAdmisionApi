@@ -55,9 +55,21 @@ def removePerson(profile):
     if 'monitor' in profile:
         grupo = profile.replace('monitor', '')
         profile = 'monitor'
-    data, filename = getData(profile)
-    del data[grupo]
-    updateFile(data, filename)
+        data, filename = getData(profile)
+        del data[grupo]
+        updateFile(data, filename)
+        return
+    elif 'jury' in profile:
+        profile, grupo, cedula = profile.split('dtl')
+        data, filename = getData(profile)
+        for nombre in data[grupo]:
+            if data[grupo][nombre] == cedula:
+                del data[grupo][nombre]
+                updateFile(data, filename)
+                return
+
+        
+
 
 
 

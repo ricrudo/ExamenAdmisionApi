@@ -34,9 +34,7 @@ def getJuries(instrumento):
     persons = session.query(Person).filter(Person.active == True).filter(Person.role == 'jury').filter(Person.group == instrumento)
     response = {}
     for person in persons:
-        if not person.group in response:
-            response[person.group] = {} 
-        response[person.group][person.name] = person.id_person 
+        response[person.id_person] = person.name 
     session.close()
     return response
     #filename = os.sep.join(['data', 'juries.dlt'])
@@ -86,11 +84,11 @@ def deactivateCandidate(instrumento, aspirante):
     grades_instrument = json.loads(data.grades_instrument)
     juries = getJuries(instrumento)
     gradedJuries, activeJuries = [], []
-    for person, cedula in juries.items():
+    for cedula, nombre in juries.items():
         if cedula in grades_instrument:
-            activeJuries.append(person)
+            activeJuries.append(name)
             if grades_instrument[cedula] != 'awaiting':
-                gradedJuries.append(person)
+                gradedJuries.append(name)
     if len(juries) == len(gradedJuries):
         data.state = 'completed'
         session.commit()

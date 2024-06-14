@@ -33,7 +33,6 @@ def getJuries(instrumento):
     session = createSession()
     persons = session.query(Person).filter(Person.active == True).filter(Person.role == 'jury').filter(Person.group == instrumento)
     response = {}
-    session.close()
     for person in persons:
         if not person.group in response:
             response[person.group] = {} 

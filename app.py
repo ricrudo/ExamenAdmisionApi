@@ -284,7 +284,6 @@ def jury_post(instrumento):
         return render_template('grading.html', instrumento=instrumento, data=data, person=person['nombre'], alerta=alerta)
     if 'candidate' in request.form:
         response = py.setGradeCandidate(instrumento, request.form, person['cedula'])
-        breakpoint()
         return 'ok'
     if 'remove' in request.form:
         py.removeJuryAwaiting(instrumento, request.form['remove'], person['cedula'])

@@ -123,7 +123,7 @@ def cleanCandidates(data, instrumento):
     candidates = session.query(Candidate).filter(Candidate.active == True).filter(Candidate.group == instrumento)
     for candidate in candidates:
         if candidate.state != 'completed': 
-            candidate.stat = 'inactive'
+            candidate.state = 'inactive'
     session.commit()
     session.close()
     data = getData(instrumento, jsonFormat=True)

@@ -70,10 +70,10 @@ def getBulkResults(listInstrumentos):
         poolResult[person.id_person]['grades_solfeo'] = person.grades_solfeo
     resultsAudioTeoria = session.query(AudioTeoriaBD).filter(AudioTeoriaBD.active == True)
     for person in resultsAudioTeoria:
-        if not person.id_person in poolResult:
-            poolResult[person.id_person] = {}
-        poolResult[person.id_person]["audioperceptiva"] = person.audioperceptiva
-        poolResult[person.id_person]["teoria"] = person.teoria
+        if not person.id_estudiante in poolResult:
+            poolResult[person.id_estudiante] = {}
+        poolResult[person.id_estudiante]["audioperceptiva"] = person.audioperceptiva
+        poolResult[person.id_estudiante]["teoria"] = person.teoria
     #for person in cedulas:
     #    filename = os.sep.join(['users', person])
     #    if not os.path.exists(filename):

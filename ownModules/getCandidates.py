@@ -31,7 +31,7 @@ def setJsonFormat(candidates):
 
 def getJuries(instrumento):
     session = createSession()
-    persons = session.query(Person).filter(person.active == True).filter(person.role == 'jury').filter(person.group == group)
+    persons = session.query(Person).filter(Person.active == True).filter(Person.role == 'jury').filter(Person.group == group)
     response = {}
     session.close()
     for person in persons:

@@ -35,6 +35,8 @@ def getJuries(instrumento):
     response = {}
     session.close()
     for person in persons:
+        if not person.group in response:
+            response[person.group] = {} 
         response[person.group][person.name] = person.id_person 
     session.close()
     return response

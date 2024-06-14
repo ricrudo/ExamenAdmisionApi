@@ -86,9 +86,9 @@ def deactivateCandidate(instrumento, aspirante):
     gradedJuries, activeJuries = [], []
     for cedula, nombre in juries.items():
         if cedula in grades_instrument:
-            activeJuries.append(name)
+            activeJuries.append(nombre)
             if grades_instrument[cedula] != 'awaiting':
-                gradedJuries.append(name)
+                gradedJuries.append(nombre)
     if len(juries) == len(gradedJuries):
         data.state = 'completed'
         session.commit()

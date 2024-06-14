@@ -1,0 +1,22 @@
+{
+    "GRUPO_2": {
+        "cedula": "1003266825",
+        "nombre": "DIEGO"
+    },
+    "GRUPO_3": {
+        "cedula": "1042242522",
+        "nombre": "MELANIE"
+    },
+    "GRUPO_4": {
+        "cedula": "1001822815",
+        "nombre": "MICHELLE"
+    },
+    "GRUPO_6": {
+        "cedula": "1001789595",
+        "nombre": "DAYANA"
+    },
+    "GRUPO_7": {
+        "cedula": "123456789",
+        "nombre": "JEREMY"
+    }
+}

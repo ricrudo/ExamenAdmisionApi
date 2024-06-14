@@ -1,0 +1,692 @@
+{
+    "1102488331": {
+        "nombre": "CARDENAS MARTINEZ VICTOR MANUEL",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1003246782": {
+        "nombre": "GIL PEYNADO MARIA FERNANDA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1193132399": {
+        "nombre": "ACOSTA OSPINO SEBASTIAN DAVID",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "3.0",
+        "jurado": "RICARDO TEST"
+    },
+    "1042852550": {
+        "nombre": "FONTALVO HERNANDEZ DEAN GEREMY",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1001830811": {
+        "nombre": "HERRERA ALVAREZ DANIEL ELIAS",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "3.0",
+        "jurado": "EDWARD"
+    },
+    "1066270304": {
+        "nombre": "GUEVARA DIAZ JUAN SEBASTIAN",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "3.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1140821338": {
+        "nombre": "ALVAREZ BLANCO VALERI JOHANNA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1066867250": {
+        "nombre": "BERBESI ANEZ LAURA LORENA",
+        "lectura_ritmica": "4.0",
+        "lectura_melodica": "4.0",
+        "jurado": "RICARDO TEST"
+    },
+    "1140822350": {
+        "nombre": "BLANCO MENDOZA CARLOS ANDRES",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1001891674": {
+        "nombre": "BORJA MANJARRES ADRIANA MARCELA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1102578660": {
+        "nombre": "CAMARGO MUNOZ ABRAHAN DANIEL",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1029500141": {
+        "nombre": "CHICO PASTRANA JOSE DANIEL",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1044625556": {
+        "nombre": "ECHEVERRY CRUZATE JESUS DAVID",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "3.0",
+        "jurado": "EDWARD"
+    },
+    "1041771509": {
+        "nombre": "HERNANDEZ VILLANUEVA ALEJANDRO DE JESUS",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1140900495": {
+        "nombre": "CAMERO FIGUEROA DIEGO DE JESUS",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "3.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1139425429": {
+        "nombre": "MOLINA IPUANA SAMUEL",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1002366513": {
+        "nombre": "RAMIREZ PARADA CRISTHIAN MATEO",
+        "lectura_ritmica": "4.0",
+        "lectura_melodica": "4.0",
+        "jurado": "EDWARD"
+    },
+    "1034659620": {
+        "nombre": "SUAREZ ORJUELA SEBASTIAN",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1043435638": {
+        "nombre": "VALERA MADRID LEIDY CAROLINA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1002001307": {
+        "nombre": "MANGA VASQUEZ SANTIAGO ANDRES",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1043439544": {
+        "nombre": "LINAN BELTRAN SAMUEL DAVID",
+        "lectura_ritmica": "5.0",
+        "lectura_melodica": "5.0",
+        "jurado": "EDWARD"
+    },
+    "1043443012": {
+        "nombre": "PEREZ RODRIGUEZ SERGIO LUIS",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1047221600": {
+        "nombre": "RAMOS MORALES ELIASIB",
+        "lectura_ritmica": "5.0",
+        "lectura_melodica": "4.5",
+        "jurado": "EDWARD"
+    },
+    "1001823888": {
+        "nombre": "SANTIS PAEZ MAURICIO ANDRES",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1046695499": {
+        "nombre": "ABELLO OSORIO DAJHANYS CAROLINA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1046697622": {
+        "nombre": "AFRICANO MERLANO ARIETH SOFIA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1042253672": {
+        "nombre": "BERRIO CORONADO JOEL ANTON",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1127608542": {
+        "nombre": "BOROS VITOLO MIRELA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1043118482": {
+        "nombre": "CARDENAS MARIN PABLO JUNIOR",
+        "lectura_ritmica": "2.5",
+        "lectura_melodica": "3.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1130269167": {
+        "nombre": "CUETO PAREDES JULEIDIS PAOLA",
+        "lectura_ritmica": "4.5",
+        "lectura_melodica": "4.0",
+        "jurado": "EDWARD"
+    },
+    "1047042038": {
+        "nombre": "DEL VALLE VESGA ISABELLA",
+        "lectura_ritmica": "5.0",
+        "lectura_melodica": "5.0",
+        "jurado": "EDWARD"
+    },
+    "1051888135": {
+        "nombre": "DIAZ MUNOZ GENESIS SALEM",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1051887486": {
+        "nombre": "DIAZ MUNOZ GETMA ROSA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1137524626": {
+        "nombre": "DIAZ QUINTANA VIVIAN ANDREA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1043672189": {
+        "nombre": "DOMINGUEZ BORNACELLI DAROLYN MARIA",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "3.0",
+        "jurado": "EDWARD"
+    },
+    "1044621122": {
+        "nombre": "DONADO RUDAS ALEJANDRA",
+        "lectura_ritmica": "4.0",
+        "lectura_melodica": "3.3",
+        "jurado": "RICARDO TEST"
+    },
+    "1044612062": {
+        "nombre": "FERNANDEZ RODRIGUEZ JAILER JASSIT",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1128125967": {
+        "nombre": "GONZALEZ SANCHEZ YAIRA VANESSA",
+        "lectura_ritmica": "2.5",
+        "lectura_melodica": "3.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1032178518": {
+        "nombre": "GRANADOS GARCIA JUANA VALENTINA",
+        "lectura_ritmica": "2.0",
+        "lectura_melodica": "2.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1046698733": {
+        "nombre": "GUTIERREZ ANDRADE LINDA JOHANA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1041772863": {
+        "nombre": "HEREDIA HERNANDEZ MARIANELLA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1043129674": {
+        "nombre": "JAIMES ALVAREZ CAMILA ANDREA",
+        "lectura_ritmica": "4.0",
+        "lectura_melodica": "4.0",
+        "jurado": "EDWARD"
+    },
+    "1019990212": {
+        "nombre": "LOPEZ CRUZ MATEO ANDRES",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1043145914": {
+        "nombre": "LOPEZ ORTIZ VALERYN TATIANA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1048277958": {
+        "nombre": "MARTINEZ SANCHEZ DANIELA LUCIA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1103741333": {
+        "nombre": "MENDOZA GUERRA RAFAEL EDUARDO",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1151479537": {
+        "nombre": "MORENO PINERES WILKER BLADIMIR",
+        "lectura_ritmica": "4.0",
+        "lectura_melodica": "4.0",
+        "jurado": "EDWARD"
+    },
+    "1139424929": {
+        "nombre": "MUNOZ YANEZ JOHAN ANDRES",
+        "lectura_ritmica": "4.0",
+        "lectura_melodica": "4.0",
+        "jurado": "EDWARD"
+    },
+    "1007970725": {
+        "nombre": "ORTEGA RUZ CRISTIAN MANUEL",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1062962270": {
+        "nombre": "PADRON NIETO LEONOR DE BETANCI",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "3.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1127596953": {
+        "nombre": "REBOLLEDO MELENDEZ SHAYLA PATRICIA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1081760777": {
+        "nombre": "SANTODOMINGO FONTALVO LUIS FELIPE",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1104259715": {
+        "nombre": "SEQUEDA MEDINA MARIA CAROLINA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1048069199": {
+        "nombre": "TORRES GONZALEZ STEVAN DE JESUS",
+        "lectura_ritmica": "4.5",
+        "lectura_melodica": "4.5",
+        "jurado": "EDWARD"
+    },
+    "1044214693": {
+        "nombre": "VARELA GAMARRA DIEGO ANDRES",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "3.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1129525763": {
+        "nombre": "VARGAS CANTILLO JOSTIN ANDRES",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1048274867": {
+        "nombre": "BARRIOS CAMARGO ANGEL DAVID",
+        "lectura_ritmica": "4.0",
+        "lectura_melodica": "4.0",
+        "jurado": "EDWARD"
+    },
+    "1048267181": {
+        "nombre": "CAMARGO MIRANDA ANGEL DAVID",
+        "lectura_ritmica": "5.0",
+        "lectura_melodica": "5.0",
+        "jurado": "EDWARD"
+    },
+    "1042255489": {
+        "nombre": "DE LA CRUZ ACEVEDO ANTHONY GIACOMO",
+        "lectura_ritmica": "2.0",
+        "lectura_melodica": "2.0",
+        "jurado": "EDWARD"
+    },
+    "1051660975": {
+        "nombre": "DURAN ARMESTO JUAN DAVID",
+        "lectura_ritmica": "4.0",
+        "lectura_melodica": "3.5",
+        "jurado": "EDWARD"
+    },
+    "1044619196": {
+        "nombre": "GUTIERREZ CANTILLO JOSUE DAVID",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1044215167": {
+        "nombre": "MATTOS SANTOS SANTIAGO ISAAC",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "4.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1007891337": {
+        "nombre": "MIRANDA NAVARRO FRAN KEINER",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1001891527": {
+        "nombre": "NAVARRO MOLINA MOISES DAVID",
+        "lectura_ritmica": "3.5",
+        "lectura_melodica": "3.5",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1048278353": {
+        "nombre": "OROZCO MARTINEZ MOISES DAVID",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1045672499": {
+        "nombre": "RUBIO RODRIGUEZ BRAYAN JAVIER",
+        "lectura_ritmica": "3.5",
+        "lectura_melodica": "3.5",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1048288319": {
+        "nombre": "TORO GUEVARA JESUS DAVID",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1001933896": {
+        "nombre": "CERVANTES VIZCAINO MARIA ALEJANDRA",
+        "lectura_ritmica": "5.0",
+        "lectura_melodica": "5.0",
+        "jurado": "EDWARD"
+    },
+    "1052073639": {
+        "nombre": "ESQUIVEL MEDINA SANDRITH MADAY",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1042251682": {
+        "nombre": "FERNANDEZ LLERENA MATIAS JOSE",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1042852445": {
+        "nombre": "ORTEGA CARO LUISA FERNANDA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1143267382": {
+        "nombre": "JURADO UTRIA JORGE ANDRES",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "4.5",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1042244941": {
+        "nombre": "ALEMAN LUBO LUCAS JOSEPH",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1047038507": {
+        "nombre": "ARRIETA PEREZ JEMIMA DE JESUS",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "3.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1044214973": {
+        "nombre": "BADILLO DE LA ROSA JOSHUA DAVID",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1048280563": {
+        "nombre": "CAMARGO GARCIA VANIELL JOSE",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "3.0",
+        "jurado": "EDWARD"
+    },
+    "1129540275": {
+        "nombre": "CAMPO PEREZ SANTIAGO RAFAEL",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1042253134": {
+        "nombre": "FERRER JIMENEZ GEANLUCA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1047040133": {
+        "nombre": "GARAVITO TANO JULIO CESAR",
+        "lectura_ritmica": "5.0",
+        "lectura_melodica": "5.0",
+        "jurado": "EDWARD"
+    },
+    "1130267341": {
+        "nombre": "HERNANDEZ ARAGON IVAN ANDRES",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1041772296": {
+        "nombre": "HERNANDEZ ROCHA JOSEPH DE JESUS",
+        "lectura_ritmica": "3.5",
+        "lectura_melodica": "2.5",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1082835287": {
+        "nombre": "IBARRA FLOREZ MANUEL DAVID",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1042242847": {
+        "nombre": "MARTINEZ GOMEZ HAYDEN EDUARDO",
+        "lectura_ritmica": "1.0",
+        "lectura_melodica": "1.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1041772390": {
+        "nombre": "MORENO SARMIENTO MANUEL ENRIQUE",
+        "lectura_ritmica": "4.0",
+        "lectura_melodica": "4.0",
+        "jurado": "EDWARD"
+    },
+    "1043119579": {
+        "nombre": "NARVAEZ GUZMAN MOISES",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1010963006": {
+        "nombre": "PAEZ FONTALVO SERGIO KALETH",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1048069407": {
+        "nombre": "PALMA GONZALEZ DANIELA ALEJANDRA",
+        "lectura_ritmica": "2.0",
+        "lectura_melodica": "2.0",
+        "jurado": "EDWARD"
+    },
+    "1029860721": {
+        "nombre": "PENALOZA GARCIA ELIASIC DE JESUS",
+        "lectura_ritmica": "2.0",
+        "lectura_melodica": "1.0",
+        "jurado": "EDWARD"
+    },
+    "1042252110": {
+        "nombre": "SANCHEZ URUETA CARLOS DANIEL",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1044627685": {
+        "nombre": "FERIA ANTUN VLADIMIR JUNIOR",
+        "lectura_ritmica": "4.5",
+        "lectura_melodica": "3.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1052631060": {
+        "nombre": "ANAYA CERPA RAYZA SAIRETH",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1139426886": {
+        "nombre": "BARRAZA DONADO VALENTINA ISABEL",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1047035940": {
+        "nombre": "CARDENAS DIAZ SANTIAGO ISAAC",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1042248766": {
+        "nombre": "CARMONA SIERRA MARIA CAMILA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1043150674": {
+        "nombre": "CARRILLO BARRAZA DAVID SANTIAGO",
+        "lectura_ritmica": "4.0",
+        "lectura_melodica": "4.0",
+        "jurado": "EDWARD"
+    },
+    "1066280840": {
+        "nombre": "DONADO RAVELO DANIELA LUCIA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1029860256": {
+        "nombre": "GONZALEZ ONATE JUAN JOSE",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1130268434": {
+        "nombre": "HAMET OSORIO ANUAR JOSE",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1043126521": {
+        "nombre": "JASSIR QUINTERO NICOLL SHADID",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1040493072": {
+        "nombre": "MEJIA RODRIGUEZ BRAYAN ANDRES",
+        "lectura_ritmica": "4.8",
+        "lectura_melodica": "4.8",
+        "jurado": "RICARDO TEST"
+    },
+    "1041770008": {
+        "nombre": "MERCADO ANGULO ROBERTO CARLOS",
+        "lectura_ritmica": "2.0",
+        "lectura_melodica": "2.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1042460827": {
+        "nombre": "NADALES CORTES EMILY GABRIELA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1043134681": {
+        "nombre": "NIETO ESCORCIA KENDRY VALERIA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1081792611": {
+        "nombre": "NINO OCAMPO SARA MARCELA",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "3.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1042464459": {
+        "nombre": "ORTEGA MORILLO SAHORY DANIELA",
+        "lectura_ritmica": "4.5",
+        "lectura_melodica": "4.0",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1043442874": {
+        "nombre": "PADILLA GUERRA LEWRANCE ALEXANDER",
+        "lectura_ritmica": "4.5",
+        "lectura_melodica": "4.5",
+        "jurado": "EDWARD"
+    },
+    "1044617978": {
+        "nombre": "PAYARES GRAU EILIN LILIBETH",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1043442695": {
+        "nombre": "PINERES GONZALEZ KAROLAI ANDREA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1139425630": {
+        "nombre": "REALES DONADO WALTER SAMUEL",
+        "lectura_ritmica": "1.0",
+        "lectura_melodica": "1.0",
+        "jurado": "RICARDO TEST"
+    },
+    "1043671971": {
+        "nombre": "SERRANO OSORIO DAVE DAVID",
+        "lectura_ritmica": "2.5",
+        "lectura_melodica": "2.5",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1130268272": {
+        "nombre": "SOLANO DE LOS RIOS LUISA ALEJANDRA",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1127533741": {
+        "nombre": "VALDERRAMA VANEGAS LIZY ESTHER",
+        "lectura_ritmica": "",
+        "lectura_melodica": "",
+        "jurado": ""
+    },
+    "1042850451": {
+        "nombre": "VERGARA JASDANAWLA AHMED FRANCISCO",
+        "lectura_ritmica": "3.5",
+        "lectura_melodica": "3.5",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1042242748": {
+        "nombre": "MENCO MAURY LAINETH PAOLA",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "3.5",
+        "jurado": "LUIS FERNANDO"
+    },
+    "1047036683": {
+        "nombre": "ASHLEY CAROLINA NAVARRO BENJUMEA",
+        "lectura_ritmica": "3.0",
+        "lectura_melodica": "4.0",
+        "jurado": "LUIS FERNANDO"
+    }
+}

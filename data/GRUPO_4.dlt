@@ -1,0 +1,219 @@
+{
+    "1048274867": {
+        "nombre": "BARRIOS CAMARGO ANGEL DAVID",
+        "state": "completed",
+        "grades": {
+            "72294799": {
+                "libre y escalas": 3.0,
+                "preparada": 3.0,
+                "lectura": 3.0
+            },
+            "1140824510": {
+                "libre y escalas": 3.0,
+                "preparada": 3.0,
+                "lectura": 3.0
+            },
+            "78699545": {
+                "libre y escalas": 3.0,
+                "preparada": 3.0,
+                "lectura": 3.0
+            }
+        }
+    },
+    "1048267181": {
+        "nombre": "CAMARGO MIRANDA ANGEL DAVID",
+        "state": "completed",
+        "grades": {
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1042255489": {
+        "nombre": "DE LA CRUZ ACEVEDO ANTHONY GIACOMO",
+        "state": "completed",
+        "grades": {
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1051660975": {
+        "nombre": "DURAN ARMESTO JUAN DAVID",
+        "state": "completed",
+        "grades": {
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1044619196": {
+        "nombre": "GUTIERREZ CANTILLO JOSUE DAVID",
+        "state": "inactive"
+    },
+    "1044215167": {
+        "nombre": "MATTOS SANTOS SANTIAGO ISAAC",
+        "state": "completed",
+        "grades": {
+            "72294799": {
+                "libre y escalas": 2.0,
+                "preparada": 2.0,
+                "lectura": 2.0
+            },
+            "78699545": {
+                "libre y escalas": 2.0,
+                "preparada": 2.0,
+                "lectura": 2.0
+            },
+            "1140824510": {
+                "libre y escalas": 2.0,
+                "preparada": 2.0,
+                "lectura": 2.0
+            }
+        }
+    },
+    "1007891337": {
+        "nombre": "MIRANDA NAVARRO FRAN KEINER",
+        "state": "inactive"
+    },
+    "1001891527": {
+        "nombre": "NAVARRO MOLINA MOISES DAVID",
+        "state": "completed",
+        "grades": {
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1048278353": {
+        "nombre": "OROZCO MARTINEZ MOISES DAVID",
+        "state": "inactive"
+    },
+    "1045672499": {
+        "nombre": "RUBIO RODRIGUEZ BRAYAN JAVIER",
+        "state": "completed",
+        "grades": {
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1048288319": {
+        "nombre": "TORO GUEVARA JESUS DAVID",
+        "state": "inactive"
+    },
+    "1001933896": {
+        "nombre": "CERVANTES VIZCAINO MARIA ALEJANDRA",
+        "state": "completed",
+        "grades": {
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1052073639": {
+        "nombre": "ESQUIVEL MEDINA SANDRITH MADAY",
+        "state": "inactive"
+    },
+    "1042251682": {
+        "nombre": "FERNANDEZ LLERENA MATIAS JOSE",
+        "state": "inactive"
+    },
+    "1042852445": {
+        "nombre": "ORTEGA CARO LUISA FERNANDA",
+        "state": "inactive"
+    },
+    "1143267382": {
+        "nombre": "JURADO UTRIA JORGE ANDRES",
+        "state": "completed",
+        "grades": {
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    }
+}

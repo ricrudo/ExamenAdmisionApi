@@ -1,0 +1,601 @@
+{
+    "nombre": "juan david duran armesto",
+    "cedula": "1051660975",
+    "audioperceptiva": {
+        "bar": {
+            "question_1": {
+                "audio": "2/4",
+                "visual": "2/4",
+                "answer": "true",
+                "points": 1
+            },
+            "question_2": {
+                "audio": "9/8",
+                "visual": "9/8",
+                "answer": "true",
+                "points": 1
+            },
+            "question_3": {
+                "audio": "6/8",
+                "visual": "3/4",
+                "answer": "false",
+                "points": 1
+            },
+            "question_4": {
+                "audio": "4/4",
+                "visual": "3/4",
+                "answer": "true",
+                "points": 0
+            }
+        },
+        "chords": {
+            "question_5": {
+                "audio": "menor",
+                "visual": "menor",
+                "answer": "true",
+                "points": 1
+            },
+            "question_6": {
+                "audio": "mayor",
+                "visual": "mayor",
+                "answer": "true",
+                "points": 1
+            },
+            "question_7": {
+                "audio": "menor",
+                "visual": "mayor",
+                "answer": "false",
+                "points": 1
+            },
+            "question_8": {
+                "audio": "mayor",
+                "visual": "mayor",
+                "answer": "false",
+                "points": 0
+            }
+        },
+        "intervals": {
+            "question_9": {
+                "audio": "6M",
+                "visual": "6M",
+                "answer": "true",
+                "points": 1
+            },
+            "question_10": {
+                "audio": "4p",
+                "visual": "3m",
+                "answer": "true",
+                "points": 0
+            },
+            "question_11": {
+                "audio": "2M",
+                "visual": "2M",
+                "answer": "true",
+                "points": 1
+            },
+            "question_12": {
+                "audio": "3M",
+                "visual": "3M",
+                "answer": "false",
+                "points": 0
+            }
+        },
+        "melody": {
+            "question_13": {
+                "audio": [
+                    "D4",
+                    "F4",
+                    "G4",
+                    "E4",
+                    "C4"
+                ],
+                "visual": [
+                    "C4",
+                    "D4",
+                    "E4",
+                    "F4",
+                    "G4"
+                ],
+                "answer": "false",
+                "points": 1
+            }
+        },
+        "modesScales": {
+            "question_14": {
+                "audio": "D d\u00f3rica",
+                "visual": "D d\u00f3rica",
+                "answer": "true",
+                "points": 1
+            },
+            "question_15": {
+                "audio": "A mixolidia",
+                "visual": "A mixolidia",
+                "answer": "false",
+                "points": 0
+            },
+            "question_16": {
+                "audio": "B d\u00f3rica",
+                "visual": "B d\u00f3rica",
+                "answer": "false",
+                "points": 0
+            },
+            "question_17": {
+                "audio": "C# d\u00f3rica",
+                "visual": "C# d\u00f3rica",
+                "answer": "true",
+                "points": 1
+            }
+        },
+        "rhythms": {
+            "question_18": {
+                "audio": [
+                    [
+                        0.25,
+                        0.5,
+                        0.25
+                    ],
+                    [
+                        -0.5,
+                        0.25,
+                        0.25
+                    ],
+                    [
+                        -1
+                    ],
+                    [
+                        0.5,
+                        0.25,
+                        0.25
+                    ]
+                ],
+                "visual": [
+                    [
+                        0.5,
+                        -0.5
+                    ],
+                    [
+                        -1
+                    ],
+                    [
+                        0.25,
+                        0.5,
+                        0.25
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        -0.5
+                    ]
+                ],
+                "answer": "false",
+                "points": 1
+            },
+            "question_19": {
+                "audio": [
+                    [
+                        0.5,
+                        0.25,
+                        0.25
+                    ],
+                    [
+                        -0.5,
+                        0.25,
+                        0.25
+                    ],
+                    [
+                        -1
+                    ],
+                    [
+                        0.25,
+                        -0.5,
+                        0.25
+                    ]
+                ],
+                "visual": [
+                    [
+                        0.25,
+                        0.5,
+                        0.25
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        0.25,
+                        -0.5,
+                        0.25
+                    ],
+                    [
+                        0.75,
+                        0.25
+                    ]
+                ],
+                "answer": "false",
+                "points": 1
+            },
+            "question_20": {
+                "audio": [
+                    [
+                        0.75,
+                        0.25
+                    ],
+                    [
+                        -0.5,
+                        0.25,
+                        0.25
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        0.25,
+                        0.25
+                    ]
+                ],
+                "visual": [
+                    [
+                        0.25,
+                        -0.5,
+                        0.25
+                    ],
+                    [
+                        0.5,
+                        0.25,
+                        0.25
+                    ],
+                    [
+                        -1
+                    ],
+                    [
+                        -0.5,
+                        0.25,
+                        0.25
+                    ]
+                ],
+                "answer": "false",
+                "points": 1
+            },
+            "question_21": {
+                "audio": [
+                    [
+                        0.5,
+                        0.25,
+                        0.25
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        -0.5
+                    ],
+                    [
+                        -1
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        0.25,
+                        0.25
+                    ]
+                ],
+                "visual": [
+                    [
+                        0.5,
+                        0.25,
+                        0.25
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        -0.5
+                    ],
+                    [
+                        -1
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        0.25,
+                        0.25
+                    ]
+                ],
+                "answer": "true",
+                "points": 1
+            }
+        }
+    },
+    "teoria": {
+        "bar": {
+            "question_22": {
+                "barA": "9/8",
+                "audio": [
+                    [
+                        1,
+                        -0.5
+                    ],
+                    [
+                        1,
+                        0.5
+                    ],
+                    [
+                        0.5,
+                        0.5,
+                        -0.5
+                    ]
+                ],
+                "barB": "2/4",
+                "visual": [
+                    [
+                        0.5,
+                        0.5
+                    ],
+                    [
+                        -1
+                    ]
+                ],
+                "answer": "false",
+                "points": 1
+            },
+            "question_23": {
+                "barA": "3/4",
+                "audio": [
+                    [
+                        0.5,
+                        -0.25,
+                        0.25
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        0.25,
+                        0.25
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        0.5
+                    ]
+                ],
+                "barB": "4/4",
+                "visual": [
+                    [
+                        0.25,
+                        0.25,
+                        0.25,
+                        0.25
+                    ],
+                    [
+                        0.5,
+                        -0.25,
+                        0.25
+                    ],
+                    [
+                        -1
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        0.5
+                    ]
+                ],
+                "answer": "true",
+                "points": 0
+            },
+            "question_24": {
+                "barA": "6/8",
+                "audio": [
+                    [
+                        0.25,
+                        0.25,
+                        0.25,
+                        0.25,
+                        0.5
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        0.5,
+                        0.25,
+                        0.25
+                    ]
+                ],
+                "barB": "6/8",
+                "visual": [
+                    [
+                        0.25,
+                        0.25,
+                        0.25,
+                        0.25,
+                        0.5
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        0.5,
+                        0.25,
+                        0.25
+                    ]
+                ],
+                "answer": "false",
+                "points": 0
+            },
+            "question_25": {
+                "barA": "9/8",
+                "audio": [
+                    [
+                        0.5,
+                        -0.5,
+                        0.5
+                    ],
+                    [
+                        -1,
+                        0.5
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        0.5,
+                        0.25,
+                        0.25
+                    ]
+                ],
+                "barB": "9/8",
+                "visual": [
+                    [
+                        0.5,
+                        -0.5,
+                        0.5
+                    ],
+                    [
+                        -1,
+                        0.5
+                    ],
+                    [
+                        0.25,
+                        0.25,
+                        0.5,
+                        0.25,
+                        0.25
+                    ]
+                ],
+                "answer": "false",
+                "points": 0
+            }
+        },
+        "chords": {
+            "question_26": {
+                "audio": "F4 disminuido",
+                "visual": "F4 disminuido",
+                "answer": "true",
+                "points": 1
+            },
+            "question_27": {
+                "audio": "C4 aumentado",
+                "visual": "C4 aumentado",
+                "answer": "false",
+                "points": 0
+            },
+            "question_28": {
+                "audio": "G#4 menor",
+                "visual": "G#4 aumentado",
+                "answer": "false",
+                "points": 1
+            },
+            "question_29": {
+                "audio": "Eb4 mayor",
+                "visual": "Eb4 mayor",
+                "answer": "true",
+                "points": 1
+            }
+        },
+        "intervals": {
+            "question_30": {
+                "audio": "G4 2M",
+                "visual": "G4 3m",
+                "answer": "false",
+                "points": 1
+            },
+            "question_31": {
+                "audio": "A4 6m",
+                "visual": "A4 6m",
+                "answer": "true",
+                "points": 1
+            },
+            "question_32": {
+                "audio": "G#4 7m",
+                "visual": "G#4 2m",
+                "answer": "false",
+                "points": 1
+            },
+            "question_33": {
+                "audio": "Eb4 5p",
+                "visual": "Eb4 5p",
+                "answer": "true",
+                "points": 1
+            }
+        },
+        "keys": {
+            "question_34": {
+                "audio": "A mayor",
+                "visual": "A mayor",
+                "answer": "true",
+                "points": 1
+            },
+            "question_35": {
+                "audio": "D mayor",
+                "visual": "D mayor",
+                "answer": "true",
+                "points": 1
+            },
+            "question_36": {
+                "audio": "Db menor",
+                "visual": "Db menor",
+                "answer": "false",
+                "points": 0
+            },
+            "question_37": {
+                "audio": "Eb mayor",
+                "visual": "C mayor",
+                "answer": "false",
+                "points": 1
+            }
+        },
+        "modesScales": {
+            "question_38": {
+                "audio": "F locria",
+                "visual": "F frigia",
+                "answer": "false",
+                "points": 1
+            },
+            "question_39": {
+                "audio": "A eolica",
+                "visual": "A frigia",
+                "answer": "true",
+                "points": 0
+            },
+            "question_40": {
+                "audio": "E frigia",
+                "visual": "E frigia",
+                "answer": "false",
+                "points": 0
+            },
+            "question_41": {
+                "audio": "Eb eolica",
+                "visual": "Eb locria",
+                "answer": "true",
+                "points": 0
+            }
+        },
+        "scales": {
+            "question_42": {
+                "audio": "F# menor armonica",
+                "visual": "F# menor armonica",
+                "answer": "true",
+                "points": 1
+            },
+            "question_43": {
+                "audio": "F# menor natural",
+                "visual": "F# menor armonica",
+                "answer": "false",
+                "points": 1
+            },
+            "question_44": {
+                "audio": "F# menor melodica",
+                "visual": "F# menor melodica",
+                "answer": "false",
+                "points": 0
+            },
+            "question_45": {
+                "audio": "F menor natural",
+                "visual": "F mayor",
+                "answer": "false",
+                "points": 1
+            }
+        }
+    },
+    "Head": "question_45",
+    "left_time": 0,
+    "points_audioperceptiva": "15/21",
+    "points_teoria": "15/24"
+}

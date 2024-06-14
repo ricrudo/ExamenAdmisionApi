@@ -12,6 +12,9 @@ dictInstruments = { 'grupo1': 'GRUPO_1',
                     'grupo5': 'GRUPO_5', 
                     'grupo6': 'GRUPO_6', 
                     'grupo7': 'GRUPO_7', 
+                    'grupo8': 'GRUPO_8', 
+                    'grupo9': 'GRUPO_9', 
+                    'grupo10': 'GRUPO_10'
                     }
 
 url_Instrument = {value:key for key, value in dictInstruments.items()}
@@ -36,22 +39,26 @@ def hello_world():
 
 @app.get("/examen_ua/cuestionario/<institution>")
 def get_quest(institution:str):
+    # DB montada
     # TODO que reciba tambien el id del estudiante para saber si existe
     data = py.get_cuestionario(institution)
     return data
 
 @app.post("/examen_ua/set_cuestionario")
 def set_quest():
+    # DB montada
     py.set_cuestionario(request.json)
     return 'ok'
 
 @app.get("/examen_ua/get_results")
 def get_results():
+    # DB montada
     response = py.getBulkResults(list(dictInstruments.values()))
     return response
 
 @app.post("/examen_ua")
 def post_results():
+    # DB montada
     py.resultsManager(request.json)
     return 'ok'
 
@@ -60,6 +67,58 @@ def set_suscribers():
     email = request.json    
     py.new_suscriptor(email['email'])
     return 'ok'
+
+
+#######################################
+#### API EXAMEN SOLFEO      ###########
+#### API EXAMEN SOLFEO      ###########
+#### API EXAMEN SOLFEO      ###########
+#### API EXAMEN SOLFEO      ###########
+#### API EXAMEN SOLFEO      ###########
+#### API EXAMEN SOLFEO      ###########
+#######################################
+
+
+@app.get("/admisionesUA/solfeo_<grupo>/jury")
+def jury_getSolfeo(grupo):
+    # DB montada
+    grupo = f'SOLFEO_{grupo}'
+    user = session.get('JURY')
+    if user:
+        person = py.checkPassword(user, grupo, 'jury')
+        if person:
+            data = py.solfeoGetCandidates()
+            alerta = None
+            if request.args:
+                selectedCandidate = request.args.get("candidate")
+            else:
+                selectedCandidate = None
+            if request.form:
+                return str(request.form)
+            return render_template('gradingSolfeo.html', instrumento=grupo, data=data, person=person['nombre'], alerta=alerta, selectedCandidate=int(selectedCandidate))
+    return render_template('login.html', instrumento=grupo)
+        
+@app.post("/admisionesUA/solfeo_<grupo>/jury")
+def jury_postSolfeo(grupo):
+    # DB montada sin test
+    grupoName = f'SOLFEO_{grupo}'
+    person = None
+    if 'password' in request.form:
+        person = py.checkPassword(request.form['password'], grupoName, 'jury')
+        if not person: abort(401)
+        session['JURY'] = request.form['password']
+        return redirect(url_for('jury_getSolfeo', grupo=grupo))
+    if session.get('JURY') is None:
+        return redirect(url_for('jury_get', instrumento=url_Instrument[instrumento]))
+    if not person:
+        person = py.checkPassword(session['JURY'], grupoName, 'jury')
+        if not person:
+            return redirect(url_for('jury_get', instrumento=url_Instrument[instrumento]))
+    if 'candidate' in request.form:
+#        with open('test.txt', 'w') as f:
+#            f.write(str(request.form))
+        py.setGradesSolfeo(request.form, person)
+        return 'ok'
 
 #######################################
 #### API EXAMEN INSTRUMENTO ###########
@@ -72,25 +131,41 @@ def set_suscribers():
 
 @app.post("/admisionesUA/services/set_list_instrument")
 def serviceSetListByInstrument():
+    # DB montada
     py.set_list_by_instrument(request.json)
     return 'ok'
 
+@app.get("/admisionesUA/services/get_candidate_<cedula>")
+def serviceGetCandidate(cedula):
+    # DB montada
+    return py.get_candidate_raw(cedula)
+
+@app.post("/admisionesUA/services/modify_candidate")
+def modifyCandidate():
+    # DB montada
+    response = py.modify_candidate(request.json)
+    return response
+
 @app.post("/admisionesUA/services/set_monitor")
 def serviceSetMonitor():
+    # DB montada
     response = py.setPerson(request.json, 'monitor')
     return response
 
 @app.post("/admisionesUA/services/set_jury")
 def serviceSetJury():
+    # DB montada
     response = py.setPerson(request.json, 'jury')
     return response
 
 @app.get("/admisionesUA/services/getGrades")
 def serviceGetGrades():
+    # DB montada sin test
     return py.getGrades(list(dictInstruments.values()))
 
 @app.get("/admisionesUA/services/get_<profile>s")
 def servicesGetPersons(profile):
+    # DB montada
     if not profile in ['monitor', 'jurie']:
         abort(404)
     data = py.getListPersons(profile.replace('ie', 'y')) 
@@ -98,6 +173,7 @@ def servicesGetPersons(profile):
 
 @app.get("/admisionesUA/services/delete_<profile>")
 def servicesDeletePerson(profile):
+    # DB montada
     if not any([x in profile for x in ['monitor', 'jury']]):
         abort(404)
     data = py.removePerson(profile) 
@@ -119,6 +195,7 @@ def servicesDeletePerson(profile):
 
 @app.get("/admisionesUA/<instrumento>/monitor")
 def monitor_get(instrumento):
+    # DB montada
     instrumento = check_instrument(instrumento)
     if not instrumento: abort(404)
     user = session.get('MONITOR')
@@ -131,6 +208,7 @@ def monitor_get(instrumento):
 
 @app.post("/admisionesUA/<instrumento>/monitor")
 def monitor_post(instrumento):
+    # DB montada
     instrumento = check_instrument(instrumento)
     if not instrumento: abort(404)
     person = None
@@ -151,7 +229,7 @@ def monitor_post(instrumento):
         active = True
         pendingJuries = False
     elif 'deactivate' in request.form:
-        data, active, pendingJuries = py.deactivateCadidate(instrumento, request.form['deactivate'])
+        data, active, pendingJuries = py.deactivateCandidate(instrumento, request.form['deactivate'])
     return render_template('monitorDashboard.html', instrumento=instrumento, data=data, active=active, person=person, pendingJuries=pendingJuries)
 
 
@@ -169,6 +247,7 @@ def monitor_post(instrumento):
 
 @app.get("/admisionesUA/<instrumento>/jury")
 def jury_get(instrumento):
+    # DB montada sin test
     instrumento = check_instrument(instrumento)
     if not instrumento: abort(404)
     user = session.get('JURY')
@@ -182,6 +261,7 @@ def jury_get(instrumento):
 
 @app.post("/admisionesUA/<instrumento>/jury")
 def jury_post(instrumento):
+    # DB montada sin test
     instrumento = check_instrument(instrumento)
     if not instrumento: abort(404)
     person = None

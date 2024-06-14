@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Examen Admision UA - Promusica</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class='headBolck'>
+    <div class='title boldText centerFlex'>Panel de Calificaci&#243;n</div>
+    <div class='monitor boldText centerFlex'>Jurado: {{ person }}</div> 
+    <div class='subtitle centerFlex'>Examen Admisi&#243;n UA</div>
+    <div class='instrumento centerFlex endHeader'>{{ instrumento.replace('_', ' ') }}</div> 
+  </div>
+  <div class='candidate'>
+    <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+        <option value="">Select...</option>
+        {% for key, value in data.items() %}
+            <option value="https://riedmusicapp.com/examination/admisionesUA/{{  instrumento.lower()  }}/jury?candidate={{ key }}">{{ value['nombre'] }}</option>
+        {% endfor %}
+    </select>
+    {% if selectedCandidate %}
+        </p>
+        <div style='text-align: center'>Candidato/a: {{ data[selectedCandidate]['nombre'] }}</div>
+        <input name='candidateCedula' type='hidden' id='candidateCedula' value='{{ selectedCandidate }}'></input>
+        <div class='gradeBock firstGradeBlock'>
+            <div class='gradeLabel'>Lectura r&#237;tmica</div> 
+            <input type='text' class='textinput textinputGrade' name='ritmica', id='ritmica' maxlength='3' value='{{ data[selectedCandidate]['lectura_ritmica'] }}'></input> 
+        </div> 
+        <div class='gradeBock'>
+            <div class='gradeLabel'>Lectura mel&#243;dica</div>
+            <input type='text' class='textinput textinputGrade' name='melodica', id='melodica' maxlength='3' value='{{ data[selectedCandidate]['lectura_melodica'] }}'></input> 
+        </div>
+        <div class='btnsCont'>
+            <button class='btnOk' onclick='checkData()'>ENVIAR</button>
+        </div> 
+    {% endif %}
+    </div> 
+
+    <div class='powered'>Powered by </div> 
+    <img src="https://riedmusicapp.com/logoRied.png" alt="Girl in a jacket" width="170">
+  </div> 
+  <script>
+    function checkData() {
+	  let candidate = document.querySelector('#candidateCedula');
+	  let ritmica = convertData(document.querySelector("#ritmica"));
+	  let melodica = convertData(document.querySelector("#melodica"));
+	  if (ritmica && melodica) {
+		let text = 'Por favor confirme que las siguiente notas son las que desea reportar.\n\n' +
+		  'Lectura ritmica: ' + ritmica + '\n' + 
+		  'Lectura melodica: ' + melodica + '\n'
+		if (confirm(text)) {
+		      sendData(ritmica, melodica, candidate);
+		    } 
+	      }
+	  else {
+		alert('Falta ingresar una o varias notas con un valor entre 0.0 y 5.0')
+	      }
+	};
+
+    function convertData(data) {
+	  data = data.value;
+	  data = data.replace(',', '.')
+	  const letters = '1234567890.'
+	  let response = ''
+	  for (const caract of data) {
+		if (letters.includes(caract)) {
+		      response += caract;
+		    };
+	      };
+	  data = parseFloat(response);
+	  if (0 <= data && data <= 5) {
+		return data.toFixed(1);
+	      };
+	};
+
+    function sendData(ritmica, melodica, candidate) {
+	  let urlEncodedDataPairs = [], urlEncodedData = '';
+	  // Turn the data object into an array of URL-encoded key/value pairs.
+	  urlEncodedDataPairs.push( encodeURIComponent( 'candidate' ) + '=' + encodeURIComponent( candidate.value ) );
+	  urlEncodedDataPairs.push( encodeURIComponent( 'ritmica' ) + '=' + encodeURIComponent( ritmica ) );
+	  urlEncodedDataPairs.push( encodeURIComponent( 'melodica' ) + '=' + encodeURIComponent( melodica ) );
+
+	  // Combine the pairs into a single string and replace all %-encoded spaces to
+	  // the '+' character; matches the behavior of browser form submissions.
+	  urlEncodedData = urlEncodedDataPairs.join( '&' ).replace( /%20/g, '+' );
+
+	  const XHR = new XMLHttpRequest();
+	  const url = window.location.href.split('?')[0];
+	  XHR.addEventListener( 'load', function(event) {
+	    //window.location.href = url;
+	  } ); 
+	  // Set up our request
+	  XHR.open( 'POST', url );
+
+	  // Add the required HTTP header for form data POST requests
+	  XHR.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+
+	  // Finally, send our data.
+	  XHR.send( urlEncodedData );
+	};
+  </script> 
+
+</body>
+
+</html>
+
+

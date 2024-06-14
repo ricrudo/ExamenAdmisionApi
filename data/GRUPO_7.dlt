@@ -1,0 +1,170 @@
+{
+    "1052631060": {
+        "nombre": "ANAYA CERPA RAYZA SAIRETH",
+        "state": "inactive"
+    },
+    "1139426886": {
+        "nombre": "BARRAZA DONADO VALENTINA ISABEL",
+        "state": "inactive"
+    },
+    "1047035940": {
+        "nombre": "CARDENAS DIAZ SANTIAGO ISAAC",
+        "state": "inactive"
+    },
+    "1042248766": {
+        "nombre": "CARMONA SIERRA MARIA CAMILA",
+        "state": "inactive"
+    },
+    "1043150674": {
+        "nombre": "CARRILLO BARRAZA DAVID SANTIAGO",
+        "state": "completed",
+        "grades": {
+            "80810265": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140820896": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1066280840": {
+        "nombre": "DONADO RAVELO DANIELA LUCIA",
+        "state": "inactive"
+    },
+    "1029860256": {
+        "nombre": "GONZALEZ ONATE JUAN JOSE",
+        "state": "inactive"
+    },
+    "1130268434": {
+        "nombre": "HAMET OSORIO ANUAR JOSE",
+        "state": "inactive"
+    },
+    "1043126521": {
+        "nombre": "JASSIR QUINTERO NICOLL SHADID",
+        "state": "inactive"
+    },
+    "1042460827": {
+        "nombre": "NADALES CORTES EMILY GABRIELA",
+        "state": "inactive"
+    },
+    "1043134681": {
+        "nombre": "NIETO ESCORCIA KENDRY VALERIA",
+        "state": "inactive"
+    },
+    "1081792611": {
+        "nombre": "NINO OCAMPO SARA MARCELA",
+        "state": "completed",
+        "grades": {
+            "1140820896": {
+                "libre y escalas": 2.0,
+                "preparada": 2.0,
+                "lectura": 2.0
+            },
+            "80810265": {
+                "libre y escalas": 2.0,
+                "preparada": 2.0,
+                "lectura": 2.0
+            }
+        }
+    },
+    "1042464459": {
+        "nombre": "ORTEGA MORILLO SAHORY DANIELA",
+        "state": "completed",
+        "grades": {
+            "80810265": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140820896": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1043442874": {
+        "nombre": "PADILLA GUERRA LEWRANCE ALEXANDER",
+        "state": "completed",
+        "grades": {
+            "1140820896": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "80810265": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1044617978": {
+        "nombre": "PAYARES GRAU EILIN LILIBETH",
+        "state": "inactive"
+    },
+    "1043442695": {
+        "nombre": "PINERES GONZALEZ KAROLAI ANDREA",
+        "state": "inactive"
+    },
+    "1139425630": {
+        "nombre": "REALES DONADO WALTER SAMUEL",
+        "state": "completed",
+        "grades": {
+            "80810265": {
+                "libre y escalas": 0.0,
+                "preparada": 0.0,
+                "lectura": 0.0
+            },
+            "1140820896": {
+                "libre y escalas": 0.0,
+                "preparada": 0.0,
+                "lectura": 0.0
+            }
+        }
+    },
+    "1043671971": {
+        "nombre": "SERRANO OSORIO DAVE DAVID",
+        "state": "completed",
+        "grades": {
+            "1140820896": {
+                "libre y escalas": 3.0,
+                "preparada": 3.0,
+                "lectura": 3.0
+            },
+            "80810265": {
+                "libre y escalas": 4.0,
+                "preparada": 4.0,
+                "lectura": 4.0
+            }
+        }
+    },
+    "1130268272": {
+        "nombre": "SOLANO DE LOS RIOS LUISA ALEJANDRA",
+        "state": "inactive"
+    },
+    "1127533741": {
+        "nombre": "VALDERRAMA VANEGAS LIZY ESTHER",
+        "state": "inactive"
+    },
+    "1042850451": {
+        "nombre": "VERGARA JASDANAWLA AHMED FRANCISCO",
+        "state": "completed",
+        "grades": {
+            "80810265": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140820896": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    }
+}

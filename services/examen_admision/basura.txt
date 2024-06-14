@@ -1,0 +1,15 @@
+
+grupo 6 > grupo 2
+
+"1041772390": {
+        "nombre": "MORENO SARMIENTO MANUEL ENRIQUE",
+        "state": "inactive"
+    },
+
+
+grupo 9 > grupo 3
+
+"1040493072": {
+        "nombre": "MEJIA RODRIGUEZ BRAYAN ANDRES",
+        "state": "inactive"
+    },

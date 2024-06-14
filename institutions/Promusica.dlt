@@ -1,0 +1,20 @@
+{
+    "institution": "Promusica",
+    "audioperceptiva": {
+        "bar": 4,
+        "intervals": 4,
+        "chords": 4,
+        "rhythms": 4,
+        "melody": 4,
+        "modesScales": 4
+    },
+    "teoria": {
+        "bar": 4,
+        "intervals": 4,
+        "chords": 4,
+        "keys": 4,
+        "scales": 4,
+        "modesScales": 4
+    },
+    "time": 30
+}

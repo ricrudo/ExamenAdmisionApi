@@ -1,0 +1,386 @@
+{
+  "1001782397": {
+    "lectura": 1.0,
+    "libre y escalas": 3.5,
+    "preparada": 3.0,
+    "state": "completed"
+  },
+  "1001822306": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1001886901": {
+    "lectura": 5.0,
+    "libre y escalas": 5.0,
+    "preparada": 5.0,
+    "state": "completed"
+  },
+  "1001914488": {
+    "lectura": 2.5,
+    "libre y escalas": 4.0,
+    "preparada": 4.5,
+    "state": "completed"
+  },
+  "1001975151": {
+    "lectura": 5.0,
+    "libre y escalas": 5.0,
+    "preparada": 5.0,
+    "state": "completed"
+  },
+  "1002013696": {
+    "lectura": 4.25,
+    "libre y escalas": 5.0,
+    "preparada": 4.75,
+    "state": "completed"
+  },
+  "1002213582": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1002279507": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1004463094": {
+    "lectura": 5.0,
+    "libre y escalas": 5.0,
+    "preparada": 5.0,
+    "state": "completed"
+  },
+  "1005570887": {
+    "lectura": 5.0,
+    "libre y escalas": 5.0,
+    "preparada": 5.0,
+    "state": "completed"
+  },
+  "1005662464": {
+    "lectura": 1.5,
+    "libre y escalas": 3.125,
+    "preparada": 2.25,
+    "state": "completed"
+  },
+  "1007174556": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1007661643": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1007892911": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1007907446": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1007969154": {
+    "lectura": 5.0,
+    "libre y escalas": 4.833333333333333,
+    "preparada": 5.0,
+    "state": "completed"
+  },
+  "1028661660": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1029860273": {
+    "lectura": 1.0,
+    "libre y escalas": 2.5,
+    "preparada": 1.0,
+    "state": "completed"
+  },
+  "1041692066": {
+    "lectura": 5.0,
+    "libre y escalas": 5.0,
+    "preparada": 5.0,
+    "state": "completed"
+  },
+  "1041771271": {
+    "lectura": 3.0,
+    "libre y escalas": 4.375,
+    "preparada": 4.25,
+    "state": "completed"
+  },
+  "1042243957": {
+    "lectura": 4.666666666666667,
+    "libre y escalas": 4.833333333333333,
+    "preparada": 5.0,
+    "state": "completed"
+  },
+  "1042244065": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1042245655": {
+    "lectura": 4.25,
+    "libre y escalas": 4.625,
+    "preparada": 5.0,
+    "state": "completed"
+  },
+  "1042247830": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "completed"
+  },
+  "1042456947": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1042848386": {
+    "lectura": 0.0,
+    "libre y escalas": 2.375,
+    "preparada": 2.0,
+    "state": "completed"
+  },
+  "1042850451": {
+    "lectura": 1.0,
+    "libre y escalas": 1.0,
+    "preparada": 1.0,
+    "state": "completed"
+  },
+  "1042851774": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1043114522": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1043117014": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1043120078": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1043129342": {
+    "lectura": 0.0,
+    "libre y escalas": 1.75,
+    "preparada": 0.0,
+    "state": "completed"
+  },
+  "1043145223": {
+    "lectura": 1.0,
+    "libre y escalas": 1.0,
+    "preparada": 1.0,
+    "state": "completed"
+  },
+  "1043439659": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1043441860": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1043588543": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1043668266": {
+    "lectura": 1.0,
+    "libre y escalas": 3.0,
+    "preparada": 0.0,
+    "state": "completed"
+  },
+  "1044601855": {
+    "lectura": 1.0,
+    "libre y escalas": 1.0,
+    "preparada": 1.0,
+    "state": "completed"
+  },
+  "1044602860": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1045769076": {
+    "lectura": 4.0,
+    "libre y escalas": 3.95,
+    "preparada": 4.0,
+    "state": "completed"
+  },
+  "1047053123": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1048066095": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1048067819": {
+    "lectura": 5.0,
+    "libre y escalas": 5.0,
+    "preparada": 5.0,
+    "state": "completed"
+  },
+  "1048279812": {
+    "lectura": 2.5,
+    "libre y escalas": 3.125,
+    "preparada": 4.0,
+    "state": "completed"
+  },
+  "1048334179": {
+    "lectura": 5.0,
+    "libre y escalas": 5.0,
+    "preparada": 5.0,
+    "state": "completed"
+  },
+  "1049264123": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1062959069": {
+    "lectura": 1.0,
+    "libre y escalas": 1.0,
+    "preparada": 1.0,
+    "state": "completed"
+  },
+  "1064790483": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1072522347": {
+    "lectura": 0.0,
+    "libre y escalas": 3.75,
+    "preparada": 2.0,
+    "state": "completed"
+  },
+  "1079804107": {
+    "lectura": 4.333333333333333,
+    "libre y escalas": 4.666666666666667,
+    "preparada": 4.666666666666667,
+    "state": "completed"
+  },
+  "1080651062": {
+    "lectura": 1.0,
+    "libre y escalas": 1.5,
+    "preparada": 1.0,
+    "state": "completed"
+  },
+  "1082871104": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1083455871": {
+    "lectura": 1.6666666666666667,
+    "libre y escalas": 2.8333333333333335,
+    "preparada": 3.0,
+    "state": "completed"
+  },
+  "1102812670": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1105870027": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1127618123": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1127942505": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1128104075": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1128192109": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1129531216": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1130304203": {
+    "lectura": 0.0,
+    "libre y escalas": 0.0,
+    "preparada": 0.0,
+    "state": "inactive"
+  },
+  "1193588107": {
+    "lectura": 5.0,
+    "libre y escalas": 5.0,
+    "preparada": 5.0,
+    "state": "completed"
+  },
+  "1193599834": {
+    "lectura": 5.0,
+    "libre y escalas": 5.0,
+    "preparada": 5.0,
+    "state": "completed"
+  },
+  "72313147": {
+    "lectura": 4.333333333333333,
+    "libre y escalas": 4.166666666666667,
+    "preparada": 4.333333333333333,
+    "state": "completed"
+  }
+}

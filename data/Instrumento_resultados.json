@@ -1,0 +1,1309 @@
+{
+    "1102488331": {
+        "nombre": "CARDENAS MARTINEZ VICTOR MANUEL",
+        "state": "inactive"
+    },
+    "1003246782": {
+        "nombre": "GIL PEYNADO MARIA FERNANDA",
+        "state": "inactive"
+    },
+    "1046695499": {
+        "nombre": "ABELLO OSORIO DAJHANYS CAROLINA",
+        "state": "inactive"
+    },
+    "1042242748": {
+        "nombre": "MENCO MAURY LAINETH PAOLA",
+        "state": "completed",
+        "grades": {
+            "55224341": {
+                "libre y escalas": 4.5,
+                "preparada": 4.0,
+                "lectura": 3.5
+            },
+            "72184406": {
+                "libre y escalas": 4.5,
+                "preparada": 4.0,
+                "lectura": 3.5
+            }
+        }
+    },
+    "1046697622": {
+        "nombre": "AFRICANO MERLANO ARIETH SOFIA",
+        "state": "inactive"
+    },
+    "1042253672": {
+        "nombre": "BERRIO CORONADO JOEL ANTON",
+        "state": "inactive"
+    },
+    "1040493072": {
+        "nombre": "MEJIA RODRIGUEZ BRAYAN ANDRES",
+        "state": "completed",
+        "grades": {
+            "72184406": {
+                "libre y escalas": 4.75,
+                "preparada": 5.0,
+                "lectura": 4.5
+            },
+            "55224341": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 4.7
+            }
+        }
+    },
+    "1047036683": {
+        "nombre": "ASHLEY CAROLINA NAVARRO BENJUMEA",
+        "state": "completed",
+        "grades": {
+            "72184406": {
+                "libre y escalas": 4.0,
+                "preparada": 4.5,
+                "lectura": 4.0
+            },
+            "55224341": {
+                "libre y escalas": 4.0,
+                "preparada": 4.5,
+                "lectura": 4.0
+            }
+        }
+    },
+    "1127608542": {
+        "nombre": "BOROS VITOLO MIRELA",
+        "state": "inactive"
+    },
+    "1043118482": {
+        "nombre": "CARDENAS MARIN PABLO JUNIOR",
+        "state": "completed",
+        "grades": {
+            "72184406": {
+                "libre y escalas": 4.75,
+                "preparada": 4.5,
+                "lectura": 2.0
+            },
+            "55224341": {
+                "libre y escalas": 5.0,
+                "preparada": 4.5,
+                "lectura": 3.5
+            }
+        }
+    },
+    "1130269167": {
+        "nombre": "CUETO PAREDES JULEIDIS PAOLA",
+        "state": "completed",
+        "grades": {
+            "72184406": {
+                "libre y escalas": 4.75,
+                "preparada": 4.5,
+                "lectura": 4.0
+            },
+            "55224341": {
+                "libre y escalas": 4.75,
+                "preparada": 5.0,
+                "lectura": 4.0
+            }
+        }
+    },
+    "1047042038": {
+        "nombre": "DEL VALLE VESGA ISABELLA",
+        "state": "completed",
+        "grades": {
+            "55224341": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72184406": {
+                "libre y escalas": 5.0,
+                "preparada": 4.5,
+                "lectura": 4.5
+            }
+        }
+    },
+    "1051888135": {
+        "nombre": "DIAZ MUNOZ GENESIS SALEM",
+        "state": "inactive"
+    },
+    "1051887486": {
+        "nombre": "DIAZ MUNOZ GETMA ROSA",
+        "state": "inactive"
+    },
+    "1137524626": {
+        "nombre": "DIAZ QUINTANA VIVIAN ANDREA",
+        "state": "inactive"
+    },
+    "1043672189": {
+        "nombre": "DOMINGUEZ BORNACELLI DAROLYN MARIA",
+        "state": "completed",
+        "grades": {
+            "72184406": {
+                "libre y escalas": 3.5,
+                "preparada": 3.0,
+                "lectura": 2.0
+            },
+            "55224341": {
+                "libre y escalas": 3.75,
+                "preparada": 3.5,
+                "lectura": 3.0
+            }
+        }
+    },
+    "1044621122": {
+        "nombre": "DONADO RUDAS ALEJANDRA",
+        "state": "completed",
+        "grades": {
+            "72184406": {
+                "libre y escalas": 4.5,
+                "preparada": 4.5,
+                "lectura": 4.0
+            },
+            "55224341": {
+                "libre y escalas": 4.0,
+                "preparada": 5.0,
+                "lectura": 3.0
+            }
+        }
+    },
+    "1044612062": {
+        "nombre": "FERNANDEZ RODRIGUEZ JAILER JASSIT",
+        "state": "inactive"
+    },
+    "1128125967": {
+        "nombre": "GONZALEZ SANCHEZ YAIRA VANESSA",
+        "state": "completed",
+        "grades": {
+            "55224341": {
+                "libre y escalas": 2.0,
+                "preparada": 0.0,
+                "lectura": 0.0
+            },
+            "72184406": {
+                "libre y escalas": 2.25,
+                "preparada": 0.0,
+                "lectura": 0.0
+            }
+        }
+    },
+    "1032178518": {
+        "nombre": "GRANADOS GARCIA JUANA VALENTINA",
+        "state": "completed",
+        "grades": {
+            "72184406": {
+                "libre y escalas": 3.5,
+                "preparada": 4.5,
+                "lectura": 4.0
+            },
+            "55224341": {
+                "libre y escalas": 4.5,
+                "preparada": 4.5,
+                "lectura": 4.0
+            }
+        }
+    },
+    "1046698733": {
+        "nombre": "GUTIERREZ ANDRADE LINDA JOHANA",
+        "state": "inactive"
+    },
+    "1041772863": {
+        "nombre": "HEREDIA HERNANDEZ MARIANELLA",
+        "state": "inactive"
+    },
+    "1043129674": {
+        "nombre": "JAIMES ALVAREZ CAMILA ANDREA",
+        "state": "completed",
+        "grades": {
+            "55224341": {
+                "libre y escalas": 2.25,
+                "preparada": 0.0,
+                "lectura": 0.0
+            },
+            "72184406": {
+                "libre y escalas": 2.25,
+                "preparada": 0.0,
+                "lectura": 0.0
+            }
+        }
+    },
+    "1019990212": {
+        "nombre": "LOPEZ CRUZ MATEO ANDRES",
+        "state": "inactive"
+    },
+    "1043145914": {
+        "nombre": "LOPEZ ORTIZ VALERYN TATIANA",
+        "state": "inactive"
+    },
+    "1048277958": {
+        "nombre": "MARTINEZ SANCHEZ DANIELA LUCIA",
+        "state": "inactive"
+    },
+    "1103741333": {
+        "nombre": "MENDOZA GUERRA RAFAEL EDUARDO",
+        "state": "inactive"
+    },
+    "1151479537": {
+        "nombre": "MORENO PINERES WILKER BLADIMIR",
+        "state": "completed",
+        "grades": {
+            "55224341": {
+                "libre y escalas": 1.0,
+                "preparada": 0.0,
+                "lectura": 0.0
+            },
+            "72184406": {
+                "libre y escalas": 1.0,
+                "preparada": 1.0,
+                "lectura": 1.0
+            }
+        }
+    },
+    "1139424929": {
+        "nombre": "MUNOZ YANEZ JOHAN ANDRES",
+        "state": "completed",
+        "grades": {
+            "72184406": {
+                "libre y escalas": 2.25,
+                "preparada": 0.0,
+                "lectura": 0.0
+            },
+            "55224341": {
+                "libre y escalas": 2.25,
+                "preparada": 0.0,
+                "lectura": 0.0
+            }
+        }
+    },
+    "1007970725": {
+        "nombre": "ORTEGA RUZ CRISTIAN MANUEL",
+        "state": "inactive"
+    },
+    "1062962270": {
+        "nombre": "PADRON NIETO LEONOR DE BETANCI",
+        "state": "completed",
+        "grades": {
+            "72184406": {
+                "libre y escalas": 1.0,
+                "preparada": 1.0,
+                "lectura": 1.0
+            },
+            "55224341": {
+                "libre y escalas": 2.5,
+                "preparada": 2.0,
+                "lectura": 3.0
+            }
+        }
+    },
+    "1127596953": {
+        "nombre": "REBOLLEDO MELENDEZ SHAYLA PATRICIA",
+        "state": "inactive"
+    },
+    "1081760777": {
+        "nombre": "SANTODOMINGO FONTALVO LUIS FELIPE",
+        "state": "inactive"
+    },
+    "1104259715": {
+        "nombre": "SEQUEDA MEDINA MARIA CAROLINA",
+        "state": "inactive"
+    },
+    "1048069199": {
+        "nombre": "TORRES GONZALEZ STEVAN DE JESUS",
+        "state": "completed",
+        "grades": {
+            "55224341": {
+                "libre y escalas": 4.75,
+                "preparada": 5.0,
+                "lectura": 3.5
+            },
+            "72184406": {
+                "libre y escalas": 4.75,
+                "preparada": 5.0,
+                "lectura": 3.5
+            }
+        }
+    },
+    "1044214693": {
+        "nombre": "VARELA GAMARRA DIEGO ANDRES",
+        "state": "completed",
+        "grades": {
+            "55224341": {
+                "libre y escalas": 0.5,
+                "preparada": 2.0,
+                "lectura": 0.0
+            },
+            "72184406": {
+                "libre y escalas": 0.5,
+                "preparada": 1.0,
+                "lectura": 0.0
+            }
+        }
+    },
+    "1129525763": {
+        "nombre": "VARGAS CANTILLO JOSTIN ANDRES",
+        "state": "inactive"
+    },
+    "1052631060": {
+        "nombre": "ANAYA CERPA RAYZA SAIRETH",
+        "state": "inactive"
+    },
+    "1139426886": {
+        "nombre": "BARRAZA DONADO VALENTINA ISABEL",
+        "state": "inactive"
+    },
+    "1047035940": {
+        "nombre": "CARDENAS DIAZ SANTIAGO ISAAC",
+        "state": "inactive"
+    },
+    "1042248766": {
+        "nombre": "CARMONA SIERRA MARIA CAMILA",
+        "state": "inactive"
+    },
+    "1043150674": {
+        "nombre": "CARRILLO BARRAZA DAVID SANTIAGO",
+        "state": "completed",
+        "grades": {
+            "80810265": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140820896": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1066280840": {
+        "nombre": "DONADO RAVELO DANIELA LUCIA",
+        "state": "inactive"
+    },
+    "1029860256": {
+        "nombre": "GONZALEZ ONATE JUAN JOSE",
+        "state": "inactive"
+    },
+    "1130268434": {
+        "nombre": "HAMET OSORIO ANUAR JOSE",
+        "state": "inactive"
+    },
+    "1043126521": {
+        "nombre": "JASSIR QUINTERO NICOLL SHADID",
+        "state": "inactive"
+    },
+    "1042460827": {
+        "nombre": "NADALES CORTES EMILY GABRIELA",
+        "state": "inactive"
+    },
+    "1043134681": {
+        "nombre": "NIETO ESCORCIA KENDRY VALERIA",
+        "state": "inactive"
+    },
+    "1081792611": {
+        "nombre": "NINO OCAMPO SARA MARCELA",
+        "state": "completed",
+        "grades": {
+            "1140820896": {
+                "libre y escalas": 2.0,
+                "preparada": 2.0,
+                "lectura": 2.0
+            },
+            "80810265": {
+                "libre y escalas": 2.0,
+                "preparada": 2.0,
+                "lectura": 2.0
+            }
+        }
+    },
+    "1042464459": {
+        "nombre": "ORTEGA MORILLO SAHORY DANIELA",
+        "state": "completed",
+        "grades": {
+            "80810265": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140820896": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1043442874": {
+        "nombre": "PADILLA GUERRA LEWRANCE ALEXANDER",
+        "state": "completed",
+        "grades": {
+            "1140820896": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "80810265": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1044617978": {
+        "nombre": "PAYARES GRAU EILIN LILIBETH",
+        "state": "inactive"
+    },
+    "1043442695": {
+        "nombre": "PINERES GONZALEZ KAROLAI ANDREA",
+        "state": "inactive"
+    },
+    "1139425630": {
+        "nombre": "REALES DONADO WALTER SAMUEL",
+        "state": "completed",
+        "grades": {
+            "80810265": {
+                "libre y escalas": 0.0,
+                "preparada": 0.0,
+                "lectura": 0.0
+            },
+            "1140820896": {
+                "libre y escalas": 0.0,
+                "preparada": 0.0,
+                "lectura": 0.0
+            }
+        }
+    },
+    "1043671971": {
+        "nombre": "SERRANO OSORIO DAVE DAVID",
+        "state": "completed",
+        "grades": {
+            "1140820896": {
+                "libre y escalas": 3.0,
+                "preparada": 3.0,
+                "lectura": 3.0
+            },
+            "80810265": {
+                "libre y escalas": 4.0,
+                "preparada": 4.0,
+                "lectura": 4.0
+            }
+        }
+    },
+    "1130268272": {
+        "nombre": "SOLANO DE LOS RIOS LUISA ALEJANDRA",
+        "state": "inactive"
+    },
+    "1127533741": {
+        "nombre": "VALDERRAMA VANEGAS LIZY ESTHER",
+        "state": "inactive"
+    },
+    "1042850451": {
+        "nombre": "VERGARA JASDANAWLA AHMED FRANCISCO",
+        "state": "completed",
+        "grades": {
+            "80810265": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140820896": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1048274867": {
+        "nombre": "BARRIOS CAMARGO ANGEL DAVID",
+        "state": "completed",
+        "grades": {
+            "72294799": {
+                "libre y escalas": 3.0,
+                "preparada": 3.0,
+                "lectura": 3.0
+            },
+            "1140824510": {
+                "libre y escalas": 3.0,
+                "preparada": 3.0,
+                "lectura": 3.0
+            },
+            "78699545": {
+                "libre y escalas": 3.0,
+                "preparada": 3.0,
+                "lectura": 3.0
+            }
+        }
+    },
+    "1048267181": {
+        "nombre": "CAMARGO MIRANDA ANGEL DAVID",
+        "state": "completed",
+        "grades": {
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1042255489": {
+        "nombre": "DE LA CRUZ ACEVEDO ANTHONY GIACOMO",
+        "state": "completed",
+        "grades": {
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1051660975": {
+        "nombre": "DURAN ARMESTO JUAN DAVID",
+        "state": "completed",
+        "grades": {
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1044619196": {
+        "nombre": "GUTIERREZ CANTILLO JOSUE DAVID",
+        "state": "inactive"
+    },
+    "1044215167": {
+        "nombre": "MATTOS SANTOS SANTIAGO ISAAC",
+        "state": "completed",
+        "grades": {
+            "72294799": {
+                "libre y escalas": 2.0,
+                "preparada": 2.0,
+                "lectura": 2.0
+            },
+            "78699545": {
+                "libre y escalas": 2.0,
+                "preparada": 2.0,
+                "lectura": 2.0
+            },
+            "1140824510": {
+                "libre y escalas": 2.0,
+                "preparada": 2.0,
+                "lectura": 2.0
+            }
+        }
+    },
+    "1007891337": {
+        "nombre": "MIRANDA NAVARRO FRAN KEINER",
+        "state": "inactive"
+    },
+    "1001891527": {
+        "nombre": "NAVARRO MOLINA MOISES DAVID",
+        "state": "completed",
+        "grades": {
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1048278353": {
+        "nombre": "OROZCO MARTINEZ MOISES DAVID",
+        "state": "inactive"
+    },
+    "1045672499": {
+        "nombre": "RUBIO RODRIGUEZ BRAYAN JAVIER",
+        "state": "completed",
+        "grades": {
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1048288319": {
+        "nombre": "TORO GUEVARA JESUS DAVID",
+        "state": "inactive"
+    },
+    "1001933896": {
+        "nombre": "CERVANTES VIZCAINO MARIA ALEJANDRA",
+        "state": "completed",
+        "grades": {
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1052073639": {
+        "nombre": "ESQUIVEL MEDINA SANDRITH MADAY",
+        "state": "inactive"
+    },
+    "1042251682": {
+        "nombre": "FERNANDEZ LLERENA MATIAS JOSE",
+        "state": "inactive"
+    },
+    "1042852445": {
+        "nombre": "ORTEGA CARO LUISA FERNANDA",
+        "state": "inactive"
+    },
+    "1143267382": {
+        "nombre": "JURADO UTRIA JORGE ANDRES",
+        "state": "completed",
+        "grades": {
+            "72294799": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "1140824510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "78699545": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1193132399": {
+        "nombre": "ACOSTA OSPINO SEBASTIAN DAVID",
+        "state": "completed",
+        "grades": {
+            "72295451": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72358381": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "8683620": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 4.0
+            }
+        }
+    },
+    "1042852550": {
+        "nombre": "FONTALVO HERNANDEZ DEAN GEREMY",
+        "state": "inactive"
+    },
+    "1041772390": {
+        "nombre": "MORENO SARMIENTO MANUEL ENRIQUE",
+        "state": "completed",
+        "grades": {
+            "72295451": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72358381": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "8683620": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1001830811": {
+        "nombre": "HERRERA ALVAREZ DANIEL ELIAS",
+        "state": "completed",
+        "grades": {
+            "72295451": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "8683620": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72358381": {
+                "libre y escalas": 4.75,
+                "preparada": 5.0,
+                "lectura": 4.0
+            }
+        }
+    },
+    "1066270304": {
+        "nombre": "GUEVARA DIAZ JUAN SEBASTIAN",
+        "state": "completed",
+        "grades": {
+            "72358381": {
+                "libre y escalas": 4.0,
+                "preparada": 4.0,
+                "lectura": 5.0
+            },
+            "72295451": {
+                "libre y escalas": 4.0,
+                "preparada": 4.0,
+                "lectura": 5.0
+            },
+            "8683620": {
+                "libre y escalas": 4.0,
+                "preparada": 4.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1140821338": {
+        "nombre": "ALVAREZ BLANCO VALERI JOHANNA",
+        "state": "inactive"
+    },
+    "1066867250": {
+        "nombre": "BERBESI ANEZ LAURA LORENA",
+        "state": "completed",
+        "grades": {
+            "72295451": {
+                "libre y escalas": 1.0,
+                "preparada": 1.0,
+                "lectura": 1.0
+            },
+            "72358381": {
+                "libre y escalas": 1.0,
+                "preparada": 1.0,
+                "lectura": 1.0
+            },
+            "8683620": {
+                "libre y escalas": 1.0,
+                "preparada": 1.0,
+                "lectura": 1.0
+            }
+        }
+    },
+    "1140822350": {
+        "nombre": "BLANCO MENDOZA CARLOS ANDRES",
+        "state": "inactive"
+    },
+    "1001891674": {
+        "nombre": "BORJA MANJARRES ADRIANA MARCELA",
+        "state": "inactive"
+    },
+    "1102578660": {
+        "nombre": "CAMARGO MUNOZ ABRAHAN DANIEL",
+        "state": "inactive"
+    },
+    "1029500141": {
+        "nombre": "CHICO PASTRANA JOSE DANIEL",
+        "state": "inactive"
+    },
+    "1044625556": {
+        "nombre": "ECHEVERRY CRUZATE JESUS DAVID",
+        "state": "completed",
+        "grades": {
+            "72295451": {
+                "libre y escalas": 1.0,
+                "preparada": 1.0,
+                "lectura": 1.0
+            },
+            "8683620": {
+                "libre y escalas": 1.0,
+                "preparada": 1.0,
+                "lectura": 1.0
+            },
+            "72358381": {
+                "libre y escalas": 2.0,
+                "preparada": 3.0,
+                "lectura": 2.0
+            }
+        }
+    },
+    "1041771509": {
+        "nombre": "HERNANDEZ VILLANUEVA ALEJANDRO DE JESUS",
+        "state": "inactive"
+    },
+    "1140900495": {
+        "nombre": "CAMERO FIGUEROA DIEGO DE JESUS",
+        "state": "completed",
+        "grades": {
+            "72295451": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72358381": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "8683620": {
+                "libre y escalas": 4.5,
+                "preparada": 4.0,
+                "lectura": 4.0
+            }
+        }
+    },
+    "1139425429": {
+        "nombre": "MOLINA IPUANA SAMUEL",
+        "state": "inactive"
+    },
+    "1002366513": {
+        "nombre": "RAMIREZ PARADA CRISTHIAN MATEO",
+        "state": "completed",
+        "grades": {
+            "72295451": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "8683620": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72358381": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1034659620": {
+        "nombre": "SUAREZ ORJUELA SEBASTIAN",
+        "state": "inactive"
+    },
+    "1043435638": {
+        "nombre": "VALERA MADRID LEIDY CAROLINA",
+        "state": "inactive"
+    },
+    "1002001307": {
+        "nombre": "MANGA VASQUEZ SANTIAGO ANDRES",
+        "state": "completed",
+        "grades": {
+            "72295451": {
+                "libre y escalas": 2.5,
+                "preparada": 1.0,
+                "lectura": 2.0
+            },
+            "8683620": {
+                "libre y escalas": 1.0,
+                "preparada": 1.0,
+                "lectura": 1.0
+            },
+            "72358381": {
+                "libre y escalas": 2.5,
+                "preparada": 2.0,
+                "lectura": 2.0
+            }
+        }
+    },
+    "1043439544": {
+        "nombre": "LINAN BELTRAN SAMUEL DAVID",
+        "state": "completed",
+        "grades": {
+            "72295451": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 4.0
+            },
+            "72358381": {
+                "libre y escalas": 4.5,
+                "preparada": 5.0,
+                "lectura": 4.0
+            },
+            "8683620": {
+                "libre y escalas": 4.0,
+                "preparada": 4.0,
+                "lectura": 4.0
+            }
+        }
+    },
+    "1043443012": {
+        "nombre": "PEREZ RODRIGUEZ SERGIO LUIS",
+        "state": "completed",
+        "grades": {
+            "72295451": {
+                "libre y escalas": 1.0,
+                "preparada": 1.0,
+                "lectura": 1.0
+            },
+            "72358381": {
+                "libre y escalas": 0.5,
+                "preparada": 1.0,
+                "lectura": 0.0
+            },
+            "8683620": {
+                "libre y escalas": 1.0,
+                "preparada": 1.0,
+                "lectura": 1.0
+            }
+        }
+    },
+    "1001823888": {
+        "nombre": "SANTIS PAEZ MAURICIO ANDRES",
+        "state": "inactive"
+    },
+    "1042244941": {
+        "nombre": "ALEMAN LUBO LUCAS JOSEPH",
+        "state": "inactive"
+    },
+    "1047221600": {
+        "nombre": "RAMOS MORALES ELIASIB",
+        "state": "completed",
+        "grades": {
+            "2000009031": {
+                "libre y escalas": 3,
+                "preparada": 0,
+                "lectura": 2.0
+            }
+        }
+    },
+    "1043660294": {
+        "nombre": "ORELLANO PEREZ MORYS YEIMS",
+        "state": "completed",
+        "grades": {
+            "2000009031": {
+                "libre y escalas": 1.5,
+                "preparada": 1.0,
+                "lectura": 2.0
+            },
+            "12340958510": {
+                "libre y escalas": 2.5,
+                "preparada": 0.0,
+                "lectura": 3.0
+            },
+            "72292480": {
+                "libre y escalas": 2.5,
+                "preparada": 0.0,
+                "lectura": 3.0
+            },
+            "72186537": {
+                "libre y escalas": 2.5,
+                "preparada": 1.0,
+                "lectura": 3.0
+            }
+        }
+    },
+    "1041770008": {
+        "nombre": "MERCADO ANGULO ROBERTO CARLOS",
+        "state": "completed",
+        "grades": {
+            "2000009031": {
+                "libre y escalas": 1.5,
+                "preparada": 2.0,
+                "lectura": 1.0
+            },
+            "12340958510": {
+                "libre y escalas": 3.5,
+                "preparada": 0.0,
+                "lectura": 0.0
+            },
+            "72292480": {
+                "libre y escalas": 4.0,
+                "preparada": 0.0,
+                "lectura": 0.0
+            },
+            "72186537": {
+                "libre y escalas": 2.5,
+                "preparada": 2.0,
+                "lectura": 0.0
+            }
+        }
+    },
+    "1047038507": {
+        "nombre": "ARRIETA PEREZ JEMIMA DE JESUS",
+        "state": "completed",
+        "grades": {
+            "2000009031": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 4.0
+            },
+            "72186537": {
+                "libre y escalas": 4.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "72292480": {
+                "libre y escalas": 4.5,
+                "preparada": 5.0,
+                "lectura": 4.0
+            },
+            "12340958510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1044214973": {
+        "nombre": "BADILLO DE LA ROSA JOSHUA DAVID",
+        "state": "inactive"
+    },
+    "1048280563": {
+        "nombre": "CAMARGO GARCIA VANIELL JOSE",
+        "state": "completed",
+        "grades": {
+            "72292480": {
+                "libre y escalas": 3.5,
+                "preparada": 0.0,
+                "lectura": 3.0
+            },
+            "2000009031": {
+                "libre y escalas": 1.5,
+                "preparada": 1.0,
+                "lectura": 1.0
+            },
+            "12340958510": {
+                "libre y escalas": 2.0,
+                "preparada": 0.0,
+                "lectura": 1.0
+            },
+            "72186537": {
+                "libre y escalas": 1.5,
+                "preparada": 3.0,
+                "lectura": 1.0
+            }
+        }
+    },
+    "1129540275": {
+        "nombre": "CAMPO PEREZ SANTIAGO RAFAEL",
+        "state": "inactive"
+    },
+    "1042253134": {
+        "nombre": "FERRER JIMENEZ GEANLUCA",
+        "state": "inactive"
+    },
+    "1047040133": {
+        "nombre": "GARAVITO TANO JULIO CESAR",
+        "state": "completed",
+        "grades": {
+            "2000009031": {
+                "libre y escalas": 4.0,
+                "preparada": 2.0,
+                "lectura": 3.0
+            },
+            "72292480": {
+                "libre y escalas": 4.0,
+                "preparada": 0.0,
+                "lectura": 4.0
+            },
+            "12340958510": {
+                "libre y escalas": 3.75,
+                "preparada": 0.0,
+                "lectura": 4.0
+            },
+            "72186537": {
+                "libre y escalas": 3.0,
+                "preparada": 0.0,
+                "lectura": 5.0
+            }
+        }
+    },
+    "1130267341": {
+        "nombre": "HERNANDEZ ARAGON IVAN ANDRES",
+        "state": "inactive"
+    },
+    "1041772296": {
+        "nombre": "HERNANDEZ ROCHA JOSEPH DE JESUS",
+        "state": "completed",
+        "grades": {
+            "72292480": {
+                "libre y escalas": 4.0,
+                "preparada": 4.0,
+                "lectura": 4.0
+            },
+            "2000009031": {
+                "libre y escalas": 2.0,
+                "preparada": 2.0,
+                "lectura": 2.0
+            },
+            "72186537": {
+                "libre y escalas": 2.0,
+                "preparada": 2.0,
+                "lectura": 2.0
+            },
+            "12340958510": {
+                "libre y escalas": 3.75,
+                "preparada": 0.0,
+                "lectura": 3.0
+            }
+        }
+    },
+    "1082835287": {
+        "nombre": "IBARRA FLOREZ MANUEL DAVID",
+        "state": "inactive"
+    },
+    "1042242847": {
+        "nombre": "MARTINEZ GOMEZ HAYDEN EDUARDO",
+        "state": "completed",
+        "grades": {
+            "2000009031": {
+                "libre y escalas": 1.0,
+                "preparada": 1.0,
+                "lectura": 0.0
+            },
+            "72292480": {
+                "libre y escalas": 2.0,
+                "preparada": 0.0,
+                "lectura": 0.0
+            },
+            "12340958510": {
+                "libre y escalas": 0.0,
+                "preparada": 0.0,
+                "lectura": 0.0
+            },
+            "72186537": {
+                "libre y escalas": 1.0,
+                "preparada": 1.0,
+                "lectura": 0.0
+            }
+        }
+    },
+    "1043119579": {
+        "nombre": "NARVAEZ GUZMAN MOISES",
+        "state": "inactive"
+    },
+    "1010963006": {
+        "nombre": "PAEZ FONTALVO SERGIO KALETH",
+        "state": "inactive"
+    },
+    "1048069407": {
+        "nombre": "PALMA GONZALEZ DANIELA ALEJANDRA",
+        "state": "completed",
+        "grades": {
+            "2000009031": {
+                "libre y escalas": 1.5,
+                "preparada": 1.0,
+                "lectura": 1.0
+            },
+            "72292480": {
+                "libre y escalas": 2.0,
+                "preparada": 0.0,
+                "lectura": 0.0
+            },
+            "12340958510": {
+                "libre y escalas": 1.25,
+                "preparada": 0.0,
+                "lectura": 0.0
+            },
+            "72186537": {
+                "libre y escalas": 1.0,
+                "preparada": 0.0,
+                "lectura": 0.0
+            }
+        }
+    },
+    "1029860721": {
+        "nombre": "PENALOZA GARCIA ELIASIC DE JESUS",
+        "state": "completed",
+        "grades": {
+            "12340958510": {
+                "libre y escalas": 3.0,
+                "preparada": 0.0,
+                "lectura": 2.0
+            },
+            "72292480": {
+                "libre y escalas": 3.5,
+                "preparada": 0.0,
+                "lectura": 3.0
+            },
+            "2000009031": {
+                "libre y escalas": 2.0,
+                "preparada": 1.0,
+                "lectura": 2.0
+            },
+            "72186537": {
+                "libre y escalas": 3.5,
+                "preparada": 0.0,
+                "lectura": 2.0
+            }
+        }
+    },
+    "1042252110": {
+        "nombre": "SANCHEZ URUETA CARLOS DANIEL",
+        "state": "inactive"
+    },
+    "1044627685": {
+        "nombre": "FERIA ANTUN VLADIMIR JUNIOR",
+        "state": "completed",
+        "grades": {
+            "12340958510": {
+                "libre y escalas": 5.0,
+                "preparada": 5.0,
+                "lectura": 5.0
+            },
+            "2000009031": {
+                "libre y escalas": 4.0,
+                "preparada": 5.0,
+                "lectura": 3.0
+            },
+            "72186537": {
+                "libre y escalas": 4.0,
+                "preparada": 4.0,
+                "lectura": 4.0
+            },
+            "72292480": {
+                "libre y escalas": 4.5,
+                "preparada": 4.0,
+                "lectura": 4.0
+            }
+        }
+    }
+}

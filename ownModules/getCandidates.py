@@ -85,9 +85,9 @@ def deactivateCandidate(instrumento, aspirante):
     juries = getJuries(instrumento)
     gradedJuries, activeJuries = [], []
     for cedula, nombre in juries.items():
-        if cedula in grades_instrument:
+        if str(cedula) in grades_instrument:
             activeJuries.append(nombre)
-            if grades_instrument[cedula] != 'awaiting':
+            if grades_instrument[str(cedula)] != 'awaiting':
                 gradedJuries.append(nombre)
     if len(juries) == len(gradedJuries):
         data.state = 'completed'
@@ -141,15 +141,15 @@ def getActiveCandidate(instrumento, person):
                 grades_instrument = {}
             else:
                 grades_instrument = json.loads(candidate.grades_instrument)
-            if not grades_instrument or person not in grades_instrument:
-                grades_instrument[person] = 'awaiting'
+            if not grades_instrument or str(person) not in grades_instrument:
+                grades_instrument[str(person)] = 'awaiting'
                 candidate.grades_instrument = json.dumps(grades_instrument)
                 session.commit()
                 cedula = candidate.id_person
                 nombre = candidate.name
                 session.close()
                 return {'cedula':cedula, 'nombre':nombre}
-            if grades_instrument[person] == "awaiting":
+            if grades_instrument[str(person)] == "awaiting":
                 cedula = candidate.id_person
                 nombre = candidate.name
                 session.close()
@@ -219,7 +219,7 @@ def removeJuryAwaiting(instrumento, aspirante, jury):
     candidate = candidate[0]
     if candidate.grades_instrument:
         grades_instrument = json.loads(candidate.grades_instrument)
-        grades_instrument.pop(jury, None)
+        grades_instrument.pop(str(jury), None)
         if not grades_instrument:
             grades_instrument = None
         candidate.grades_instrument = json.dumps(grades_instrument)

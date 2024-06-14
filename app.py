@@ -90,12 +90,12 @@ def jury_getSolfeo(grupo):
             data = py.solfeoGetCandidates()
             alerta = None
             if request.args:
-                selectedCandidate = request.args.get("candidate")
+                selectedCandidate = int(request.args.get("candidate"))
             else:
                 selectedCandidate = None
             if request.form:
                 return str(request.form)
-            return render_template('gradingSolfeo.html', instrumento=grupo, data=data, person=person['nombre'], alerta=alerta, selectedCandidate=int(selectedCandidate))
+            return render_template('gradingSolfeo.html', instrumento=grupo, data=data, person=person['nombre'], alerta=alerta, selectedCandidate=selectedCandidate)
     return render_template('login.html', instrumento=grupo)
         
 @app.post("/admisionesUA/solfeo_<grupo>/jury")

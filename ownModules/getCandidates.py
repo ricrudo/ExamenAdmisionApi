@@ -236,11 +236,13 @@ def getGrades(instrumentos):
     finalData = {}
     for person in candidates:
         if person.state == "completed":
-            finalData[person.id_person] = calculateGrade(json.loads(candidate.grades_instrument))
+            finalData[person.id_person] = calculateGrade(json.loads(person.grades_instrument))
         elif person.state == 'inactive':
             finalData[person.id_person] = {'state': 'inactive','libre y escalas': 0.0, 'preparada': 0.0, 'lectura': 0.0}
         elif person.state == 'active':
             finalData[person.id_person] = {'state': 'active','libre y escalas': 'en espera', 'preparada': 'en espera', 'lectura': 'en espera'}
+        if person.grades_solfeo:
+            finalData[person.id_person]["solfeo"] = json.loads(person.grades_solfeo)
     session.close()
     return finalData
     #for instrumento in instrumentos:

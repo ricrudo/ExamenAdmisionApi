@@ -193,8 +193,8 @@ def setGradeCandidate(instrumento, form, jury):
         return "Person not found"
     candidate = candidate[0]
     grades_instrument = json.loads(candidate.grades_instrument)
-    if grades_instrument[jury] == 'awaiting':
-        grades_instrument[jury] = grades
+    if grades_instrument[str(jury)] == 'awaiting':
+        grades_instrument[str(jury)] = grades
         candidate.grades_instrument = json.dumps(grades_instrument)
         session.commit()
         session.close()

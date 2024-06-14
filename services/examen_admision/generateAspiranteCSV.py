@@ -86,6 +86,14 @@ def getDataPersons(sheet):
                     if not grupo:
                         grupo = grupoOptions(cell.value)
                     persons[cedula]["grupo"] = grupo
+            elif cell.column == 12 and not persons[cedula]["grupo"]:
+                instrument = cell.value.strip()
+                if instrument:
+                    persons[cedula]["instrumento"] = instrument
+                    grupo = grupos.get(cell.value, None)
+                    if not grupo:
+                        grupo = grupoOptions(cell.value)
+                    persons[cedula]["grupo"] = grupo
     return persons
 
 def csvFormat(persons):

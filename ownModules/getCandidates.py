@@ -146,11 +146,15 @@ def getActiveCandidate(instrumento, person):
                 grades_instrument[person] = 'awaiting'
                 candidate.grades_instrument = json.dumps(grades_instrument)
                 session.commit()
+                cedula = candidate.id_person
+                nombre = candidate.name
                 session.close()
-                return {'cedula':candidate.id_person, 'nombre':candidate.name}
+                return {'cedula':cedula, 'nombre':nombre}
             if grades_instrument[person] == "awaiting":
+                cedula = candidate.id_person
+                nombre = candidate.name
                 session.close()
-                return {'cedula':candidate.id_person, 'nombre':candidate.name}
+                return {'cedula':cedula, 'nombre':nombre}
             else:
                 session.close()
                 return None
